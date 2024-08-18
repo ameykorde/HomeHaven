@@ -1,7 +1,7 @@
-<<<<<<< HEAD
+
 import React from 'react';
-=======
->>>>>>> db39bcf4fadbff6142932261c819f4e4c2c51d0d
+
+
 import './NavBar.css'// Custom CSS for additional styling
 
 const NavBar = () => {
