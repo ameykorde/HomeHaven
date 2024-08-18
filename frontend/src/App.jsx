@@ -1,18 +1,16 @@
-
-import './App.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap-icons/font/bootstrap-icons.css';
-import NavBar from '../components/Navbar/Navbar';
-import HeroCarousel from '../components/HeroCarosel/HeroCarousel';
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
+import NavBar from "./components/Navbar/Navbar";
+import HeroCarousel from "./components/HeroCarosel/HeroCarousel"
 
 function App() {
-
   return (
     <>
-<NavBar/>
-<HeroCarousel/>
+      <NavBar />
+      <HeroCarousel />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

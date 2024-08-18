@@ -1,14 +1,13 @@
-import React from 'react';
 import './Navbar.css'// Custom CSS for additional styling
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark"> {/* Changed to a dark theme */}
+    <nav className="navbar navbar-expand-lg bg-body-tertiary"> {/* Changed to a dark theme */}
       <div className="container-fluid">
         {/* Logo and Title */}
         <a className="navbar-brand d-flex align-items-center" href="#">
-          <img src="../src/assets/images/HomeHaven.jpg" alt="HomeHaven Logo" width="100" height="100" className="d-inline-block align-text-top" />
-          <span className="ms-2">HomeHaven</span>
+          <img src="./src/assets/images/HomeHaven-logo.png" alt="HomeHaven Logo" width="100" height="100" className="mx-5 d-inline-block align-text-top" />
+          {/* <span className="ms-2">HomeHaven</span> */}
         </a>
 
         {/* Toggle button for mobile view */}
