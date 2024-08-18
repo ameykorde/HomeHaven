@@ -1,0 +1,17 @@
+/* src/components/NavBar.css */
+
+/* Set maximum width for the search bar */
+.search-bar {
+    max-width: 300px; /* Adjust width as necessary */
+  }
+  
+  /* Adjust navbar background color */
+  .navbar {
+    background-color: #343a40; /* Darker color for a more appealing look */
+  }
+  
+  /* Ensure the logo is not too large */
+  .navbar-brand img {
+    max-height: 40px;
+  }
+  
