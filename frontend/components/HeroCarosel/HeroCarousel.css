@@ -1,0 +1,30 @@
+/* src/components/HeroCarousel.css */
+
+.hero-carousel {
+  height: 70vh; /* Full viewport height */
+}
+
+.hero-carousel .carousel-item {
+  height: 91vh; /* Ensure each slide takes full height */
+  background-color: #000; /* Fallback background color */
+}
+
+.hero-carousel .carousel-item img {
+  object-fit: cover; /* Ensure the image covers the whole area */
+  height: 100vh; /* Full height */
+  width: 100%; /* Full width */
+}
+
+.hero-carousel .carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 20px; /* Padding around text */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.hero-carousel .carousel-caption h3 {
+  font-size: 2.5rem; /* Larger headline */
+}
+
+.hero-carousel .carousel-caption p {
+  font-size: 1.25rem; /* Larger paragraph text */
+}
