@@ -1,0 +1,31 @@
+/* RegisterPage.css */
+
+/* Container for the registration page */
+.register-container {
+    background-color: #f5f7fa;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Box for the registration form */
+.register-box {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px; /* Adjusted to fit content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the link to go back to home */
+.back-to-home-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.back-to-home-link:hover {
+    text-decoration: underline;
+}

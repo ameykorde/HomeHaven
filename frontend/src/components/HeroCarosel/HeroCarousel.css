@@ -1,9 +1,11 @@
 /* src/components/HeroCarousel.css */
 
 .hero-carousel-container {
-  width: 80%; /* Adjust this value to your desired width */
-  max-width: 1200px; /* Max width to ensure it doesn’t stretch too wide */
+  width: 86% !important; /* Increased by 5% with !important to ensure it takes effect */
+  max-width: none; /* Remove max-width to allow full stretching */
   margin: 50px auto 0 auto; /* Top margin of 50px, centered horizontally */
+  position: relative;
+   /* Center the 105% width by moving it left by half of the extra 5% */
 }
 
 .hero-carousel .carousel-item {

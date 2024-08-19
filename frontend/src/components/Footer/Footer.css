@@ -1,0 +1,68 @@
+/* Footer.css */
+
+/* General footer styles */
+.footer {
+    
+    font-family: 'Muli', sans-serif;
+    margin-top: 2rem; /* Add top margin to the footer */
+    padding: 2rem 0; /* Add padding inside the footer */
+  }
+  
+  .footer-container {
+    max-width: 1315px; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center the footer */
+  }
+  
+  .footer-row {
+    background-color: #f5f5f5;
+    color: #717171;
+    margin-top: -2rem; /* Adjust as needed */
+  }
+  
+  .footer-header {
+    color: #343a40;
+    font-weight: bold;
+  }
+  
+  .footer-list-group .list-group-item {
+    border: none;
+    padding: 0.5rem 0;
+  }
+  
+  .footer-button {
+    font-size: 0.75rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-email {
+    font-size: 0.75rem;
+    color: #6c757d;
+  }
+  
+  .footer-download {
+    gap: 1rem;
+    margin-top: 1rem; /* Add margin-top to create spacing above the icons */
+  }
+  
+  .store-icon {
+    width: 50px; /* Decrease the width of the icons */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .footer-text-muted {
+    font-size: 0.75rem;
+  }
+  
+  .footer-social-icons a {
+    color: #6c757d;
+    font-size: 1.25rem;
+  }
+  
+  .footer-social-icons a:hover {
+    color: #c7cbce;
+  }
+  
+  .footer-go-up-button {
+    font-size: 0.75rem;
+  }
+  

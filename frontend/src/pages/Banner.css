@@ -1,0 +1,38 @@
+/* src/components/Banner/Banner.css */
+
+.banner {
+    position: relative;
+    width: 87%; /* Adjust width as needed */
+    height: 400px; /* Adjust height as needed */
+    margin: 0 auto; /* Center the banner horizontally */
+    overflow: hidden; /* Hide any overflow */
+}
+
+.banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover ensures the image covers the whole area */
+    object-position: center; /* Center the image */
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Adds a dark overlay */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.banner-text h1 {
+    margin: 0;
+    font-size: 36px; /* Adjust font size as needed */
+}
+
+.banner-text p {
+    margin-top: 10px;
+    font-size: 18px; /* Adjust font size as needed */
+}
