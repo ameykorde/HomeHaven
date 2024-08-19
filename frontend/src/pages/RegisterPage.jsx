@@ -1,5 +1,3 @@
-// src/pages/RegisterPage.jsx
-
 import React, { useEffect } from 'react';
 import { Form, Button, Container, Alert } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom'; // For navigation
@@ -35,7 +33,7 @@ const RegisterPage = () => {
 
   useEffect(() => {
     if (success) {
-      // Redirect to login page after a short delay
+      // Redirect to homepage after showing the success message
       setTimeout(() => navigate('/login'), 2000);
     }
   }, [success, navigate]);
@@ -45,7 +43,7 @@ const RegisterPage = () => {
       <div className="register-box">
         <h2 className="text-center mb-4">Register</h2>
         {error && <Alert variant="danger">{error}</Alert>}
-        {success && <Alert variant="success">{success}</Alert>}
+        {success && <Alert variant="success">Registration successful! Redirecting to the homepage...</Alert>}
         <Form onSubmit={handleSubmit}>
           <Form.Group className="mb-3" controlId="formBasicFullName">
             <Form.Label>Full Name</Form.Label>

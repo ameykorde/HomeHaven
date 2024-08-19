@@ -4,7 +4,8 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
-import NavBar from './components/NavBar/NavBar';
+
+import NavBar from '../src/components/NavBar/Navbar';
 import FurniturePage from './pages/FurniturePage'; // Ensure these are correctly imported
 import AppliancesPage from './pages/AppliancesPage'; // Ensure these are correctly imported
 import Home from './pages/Home';

@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Form, Button, Container, Row, Col } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import {  login } from '../components/redux/actions/authActions'; 
+import { login } from '../components/redux/actions/authActions';
 import './LoginPage.css';
 
 const LoginPage = () => {
@@ -10,15 +10,23 @@ const LoginPage = () => {
   const [password, setPassword] = useState('');
   const navigate = useNavigate();
   const dispatch = useDispatch();
-
   const { loading, error, userInfo } = useSelector((state) => state.auth);
 
-
+  // Ref to track if the userInfo was previously null
+  const prevUserInfo = useRef(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
     dispatch(login(email, password));
   };
+
+  useEffect(() => {
+    if (prevUserInfo.current != null && userInfo){
+      alert('Login successful!');
+      navigate('/'); // Redirect to home page after login
+    }
+    prevUserInfo.current = userInfo;
+  }, [userInfo, navigate]);
 
   return (
     <Container className="login-container my-5">

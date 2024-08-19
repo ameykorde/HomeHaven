@@ -1,16 +1,18 @@
 /* Set maximum width for the search bar */
 .search-bar {
   max-width: 300px; /* Adjust width as necessary */
+  border-radius: 0.25rem; /* Add some rounding to match button styles */
 }
 
-/* Adjust navbar background color */
+/* Adjust navbar background color and padding */
 .navbar {
   background-color: #343a40; /* Darker color for a more appealing look */
+  padding: 0.75rem 1.5rem; /* Adjusted padding for better spacing */
 }
 
 /* Ensure the logo is appropriately sized */
 .navbar-brand img {
-  max-height: 20px; /* Ensure the logo is not too large */
+  max-height: 50px; /* Adjusted height to fit better in the navbar */
   height: auto; /* Maintain the aspect ratio */
   width: auto;  /* Maintain the aspect ratio */
   margin-right: 10px; /* Add some space between the logo and the text */
@@ -20,4 +22,81 @@
 .navbar-nav .nav-item {
   margin-left: 15px;
   margin-right: 15px;
+}
+
+/* Styling for the dropdown menu */
+.btn-group .dropdown-menu {
+  display: none; /* Hide the menu by default */
+  position: absolute;
+  top: 100%; /* Position below the button */
+  left: 0;
+  z-index: 1000; /* Ensure it appears above other content */
+  min-width: 160px; /* Set a minimum width */
+  padding: 0.5rem 0; /* Add padding */
+  margin: 0.125rem 0 0; /* Margin to position correctly */
+  font-size: 0.875rem; /* Font size */
+  color: #212529; /* Text color */
+  background-color: #fff; /* Background color */
+  border: 1px solid rgba(0, 0, 0, 0.15); /* Border */
+  border-radius: 0.25rem; /* Rounded corners */
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); /* Shadow effect */
+}
+
+/* Show the dropdown menu when the button is active */
+.btn-group .dropdown-menu.show {
+  display: block; /* Show the menu */
+}
+
+/* Additional styling for the dropdown items */
+.dropdown-item {
+  display: block;
+  padding: 0.5rem 1rem;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+  transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  color: #16181b;
+  text-decoration: none;
+  background-color: #5b7692;
+}
+
+/* Ensure the dropdown menu is aligned properly */
+.btn-group {
+  position: relative;
+}
+
+/* Navbar toggle button styling */
+.navbar-toggler {
+  border: none; /* Remove border */
+  padding: 0.25rem 0.5rem; /* Adjust padding for better clickability */
+  outline: none; /* Remove outline */
+}
+
+.navbar-toggler-icon {
+  background-image: url('data:image/svg+xml,...'); /* Use SVG or icon image */
+  filter: invert(1); /* Ensure visibility on dark background */
+}
+
+/* Custom user icon color and spacing */
+.user-icon {
+  color: #02e8e8; /* Custom color for user icon */
+  font-size: 1.25rem; /* Increase icon size slightly */
+  margin-left: 15px; /* Add space between icons */
+}
+
+.bi-person
+{
+  color: red;
+}
+
+.dropdown-toggle::after{
+  color: red;
 }
