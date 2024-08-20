@@ -11,7 +11,7 @@ const CategoryCards = () => {
 
   return (
     <div className="category-cards">
-      <div className="card" onClick={() => handleNavigation('/furniture')}>
+      <div className="card category-card" onClick={() => handleNavigation('/furniture')}>
         <img src="https://images.pexels.com/photos/667838/pexels-photo-667838.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="card-img-top" alt="Furniture" />
         <div className="card-body">
           <h5 className="card-title">Furniture</h5>

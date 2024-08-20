@@ -1,7 +1,7 @@
 import React from 'react';
 import { appliancesData } from '../Data/Data';
 import Card from './Card/Card1';
-import './Card/Conatiner.css'; // Common CSS for containers
+import './FurnitureContainer.css'; // Common CSS for containers
 import { useRef } from 'react';
 
 const AppliancesContainer = () => {
@@ -22,7 +22,7 @@ const AppliancesContainer = () => {
         <button className="scroll-button" onClick={scrollRight}>
           <i className="bi bi-chevron-right"></i>
         </button>
-        <div className="container" ref={containerRef}>
+        <div className="container furniture-appliances-container" ref={containerRef}>
           {appliancesData.map(item => (
             <Card key={item.id} name={item.name} image={item.image} />
           ))}

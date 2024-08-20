@@ -1,91 +1,18 @@
-.products-page {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
+/* ProductsPage.css */
+
+.add-product-form {
+  margin-bottom: 2rem;
 }
 
-.products-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
+.product-list {
+  margin-top: 2rem;
 }
 
-.add-product-card {
-  display: flex;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  overflow: hidden;
-  width: 60rem;
-  max-width: 800px;
-  background: #fff;
+.product-card {
+  margin-bottom: 1rem;
 }
 
-.product-image-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-}
-
-.product-image {
-  width: 150px;
-  height: auto;
-  margin-bottom: 10px;
-  border-radius: 8px;
-}
-
-.product-details {
-  padding: 15px;
-  flex: 1;
-}
-
-.product-name {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-}
-
-.product-edit {
-  margin-bottom: 10px;
-}
-
-.product-edit label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-.product-edit input,
-.product-edit select {
-  width: 100%;
-  padding: 8px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-.product-description {
-  margin-bottom: 10px;
-}
-
-.product-price {
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.btn {
-  padding: 8px 12px;
-  font-size: 1rem;
-}
-
-.btn-primary {
-  background-color: #007bff;
-  color: #fff;
-}
-
-.btn-danger {
-  background-color: #dc3545;
-  color: #fff;
+.card-img-top {
+  max-height: 200px;
+  object-fit: cover;
 }

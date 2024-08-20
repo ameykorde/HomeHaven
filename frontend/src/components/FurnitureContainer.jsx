@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { furnitureData } from '../Data/Data';
 import Card from './Card/Card1';
-import './Card/Conatiner.css';
+import './FurnitureContainer.css';
 
 const FurnitureContainer = () => {
   const containerRef = useRef(null);
@@ -18,7 +18,7 @@ const FurnitureContainer = () => {
         <h2>Furniture Collection</h2>
       </div>
 
-      <div className="container" ref={containerRef}>
+      <div className="container furniture-appliances-container" ref={containerRef}>
         {furnitureData.map(item => (
           <Card key={item.id} name={item.name} image={item.image} />
         ))}

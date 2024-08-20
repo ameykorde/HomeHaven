@@ -1,14 +1,8 @@
 import React, { useState } from 'react';
-import { Link, Outlet, useNavigate } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 
 const AdminPage = () => {
-  const navigate = useNavigate();
   const [isOffcanvasOpen, setIsOffcanvasOpen] = useState(false);
-
-  const handleNavigation = (path) => {
-    navigate(path);
-    setIsOffcanvasOpen(false); // Close the offcanvas after navigation
-  };
 
   const toggleOffcanvas = () => {
     setIsOffcanvasOpen(prev => !prev);
@@ -28,6 +22,7 @@ const AdminPage = () => {
         tabIndex={-1}
         id="offcanvasExample"
         aria-labelledby="offcanvasExampleLabel"
+        style={{ visibility: isOffcanvasOpen ? 'visible' : 'hidden' }} // Ensure offcanvas visibility is toggled
       >
         <div className="offcanvas-header">
           <h5 className="offcanvas-title" id="offcanvasExampleLabel">
@@ -41,18 +36,20 @@ const AdminPage = () => {
           />
         </div>
         <div className="offcanvas-body">
-          <button
+          <Link
+            to="/admin/products"
             className="btn btn-link"
-            onClick={() => handleNavigation("/admin/products")}
+            onClick={toggleOffcanvas} // Close offcanvas on link click
           >
             Products
-          </button>
-          <button
+          </Link>
+          <Link
+            to="/admin/users"
             className="btn btn-link mt-3"
-            onClick={() => handleNavigation("/admin/users")}
+            onClick={toggleOffcanvas} // Close offcanvas on link click
           >
             Users
-          </button>
+          </Link>
         </div>
       </div>
       <Outlet /> {/* This will render the nested routes */}

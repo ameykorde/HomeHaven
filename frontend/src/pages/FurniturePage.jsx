@@ -1,6 +1,6 @@
-import React from "react";
 import CategoryCard from "../components/Product/CategoryCard";
 import ProductCard from "../components/Product/ProductCard";
+import './FurniturePage.css'
 const FurniturePage = () => {
   const categories = [
     { name: "All", icon: "category" },
@@ -16,7 +16,7 @@ const FurniturePage = () => {
       <h5 className="mx-4 mt-4">
         Explore Our Extensive Furniture Rental Collection
       </h5>
-      <div className="row flex-nowrap overflow-auto ">
+      <div className="row flex-nowrap overflow-auto category-card">
         {categories.map((category, index) => (
           <CategoryCard key={index} name={category.name} icon={category.icon} />
         ))}
