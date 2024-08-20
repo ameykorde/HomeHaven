@@ -2,15 +2,15 @@
 import React from 'react';
 
 
-import './NavBar.css'// Custom CSS for additional styling
-
+import { useNavigate } from 'react-router-dom';
 const NavBar = () => {
+  const navigate = useNavigate();
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary"> {/* Changed to a dark theme */}
       <div className="container-fluid">
         {/* Logo and Title */}
         <a className="navbar-brand d-flex align-items-center" href="#">
-          <img src="./src/assets/images/HomeHaven-logo.png" alt="HomeHaven Logo" width="100" height="100" className="mx-5 d-inline-block align-text-top" />
+          <img src="./src/assets/images/HomeHaven-logo.png" alt="HomeHaven Logo" width="100" height="45" className="mx-5 d-inline-block align-text-top" />
           {/* <span className="ms-2">HomeHaven</span> */}
         </a>
 
@@ -30,6 +30,9 @@ const NavBar = () => {
           </form>
 
           {/* Cart Icon */}
+          <button href="#" className="btn btn-outline-primary me-2" onClick={() => navigate('/admin')}>
+            <i className="bi bi-plus"></i>
+          </button>
           <a href="#" className="btn btn-outline-primary me-2">
             <i className="bi bi-cart"></i>
           </a>

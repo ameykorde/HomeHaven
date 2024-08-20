@@ -1,0 +1,25 @@
+/* styles.css */
+
+/* Base style for the cards */
+.col .card {
+    width: 10rem; /* Default width */
+    margin-right: 0rem; /* Space between cards */
+    background-color: #F6F5F2; /* Light background color */
+    height: 80%;
+  }
+  
+  /* Adjust card size for smaller screens */
+  @media (max-width: 576px) {
+    .col .card {
+      width: 7rem; /* Smaller width on small devices */
+    }
+  
+    .col .card-body .material-symbols-outlined {
+      font-size: 1.5rem; /* Adjust icon size */
+    }
+  
+    .col .card-title {
+      font-size: 0.875rem; /* Adjust text size */
+    }
+  }
+  

@@ -1,0 +1,77 @@
+/* styles.css */
+.carousel-item img {
+  max-height: 400px; /* Adjust as needed */
+  object-fit: cover;
+}
+
+.options-container {
+  padding: 2rem;
+}
+
+.rental-options {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.rental-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: #fefffe;
+  border: 1px solid #597492;
+  cursor: pointer;
+}
+
+.rental-option:hover{
+  box-shadow: 0px 0px 8px #597492;
+}
+
+.rental-option.selected {
+  background-color: #597492;
+  color: #ffffff;
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+
+.price {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* styles.css */
+.btn-custom {
+  background-color: #f6b605;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.25rem; /* Adjust as needed */
+  font-weight: 600;
+  padding: 1rem 2rem;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #e5a900; /* Darker shade for hover effect */
+}
+
+.btn-custom:focus, .btn-custom:active {
+  box-shadow: none; /* Remove default focus and active shadow */
+}
+
+.icon-text-container {
+  display: flex;
+  align-items: center;
+}
+
+.icon-text-container .material-symbols-outlined {
+  margin-right: 8px; /* Adjust spacing between icon and text */
+}
