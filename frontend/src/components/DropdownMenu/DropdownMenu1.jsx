@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
 import './DropdownMenu.css';
 
 const DropdownMenu1 = ({ userInfo, onLogout }) => {
@@ -30,8 +31,8 @@ const DropdownMenu1 = ({ userInfo, onLogout }) => {
         <div className="dropdown-menu">
           {userInfo ? (
             <>
-              <a href="/profile" className="dropdown-item">{userInfo.name}</a>
-              <a href="/contact" className="dropdown-item">Contact Us</a>
+              <a href="#" className="dropdown-item">{userInfo.name}</a>
+              <Link to="/ContactUs" className="dropdown-item">Contact Us</Link>
               <button className="dropdown-item" onClick={onLogout}>Logout</button>
             </>
           ) : (

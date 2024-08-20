@@ -8,14 +8,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0;
+  margin-top: 1%;
+  padding-bottom: 0px;
+  padding-left: 6%;
 }
 
 .container {
   display: flex;
   overflow-x: auto;
   scroll-behavior: smooth;
-  padding: 10px 0;
+  padding: 20px 0% !important;
   gap: 10px; /* Space between cards */
 }
 
@@ -49,6 +51,8 @@
     justify-content: flex-start;
     overflow-x: scroll; /* Allow horizontal scroll on mobile */
     scroll-snap-type: x mandatory; /* Ensure smooth scrolling between items */
+      padding: 20px 2% !important;
+    
   }
 
   .container > * {
@@ -62,3 +66,4 @@
     justify-content: flex-start;
   }
 }
+

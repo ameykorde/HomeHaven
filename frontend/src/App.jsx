@@ -12,6 +12,7 @@ import Home from './pages/Home';
 import Footer from '../src/components/Footer/Footer'
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
+import ContactUs from './pages/ContactUs';
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
       <Route path="/login" element={<LoginPage />} />
       <Route path="/register" element={<RegisterPage />} />
       <Route path="/" element={<Home/>} />
-        
+      <Route path="ContactUs" element={<ContactUs/>} />
         <Route path="/furniture" element={<FurniturePage />} />
         <Route path="/appliances" element={<AppliancesPage />} />
       </Routes>

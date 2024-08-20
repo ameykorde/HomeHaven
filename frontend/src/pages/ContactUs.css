@@ -1,0 +1,104 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Container Styles */
+.container {
+    padding: 40px 5%;
+   
+}
+
+#articles .container {
+    padding-top: 0;
+}
+
+/* Articles Container */
+.articles-container {
+    background: linear-gradient(135deg, rgba(var(--color-primary), 0.5) 0%, rgba(var(--color-primary), 0.3) 100%);
+    border-radius: 18px;
+    padding: 40px;
+    margin: 2% 7%;
+}
+
+.article-title {
+    font-size: 36px;
+    color: rgb(var(--color-theme));
+}
+
+.article-description {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: rgba(var(--color-theme), 0.8);
+}
+
+/* Articles Box */
+.articles-box {
+    display: flex;
+    row-gap: 20px;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.articles-box .article {
+    background-color: rgba(var(--color-secondry), 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    text-decoration: none;
+    color: inherit;
+    transition: background-color 0.3s ease;
+}
+
+.articles-box .article:hover {
+    background-color: rgba(var(--color-secondry), 1);
+}
+
+/* Contact Container */
+.contact-container {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container .text {
+    width: 40%;
+    padding: 15px;
+    background-color: rgba(var(--color-primary), 0.1);
+    border-radius: 8px;
+}
+
+.contact-container .title {
+    font-size: 28px;
+    color: rgb(var(--color-theme));
+}
+
+.contact-container .description {
+    margin-top: 10px;
+    font-size: 16px;
+    color: rgba(var(--color-theme), 0.7);
+}
+
+.contact-container .image {
+    width: 50%;
+}
+
+.contact-container .image img {
+    max-width: 100%;
+    border-radius: 8px;
+    border: 2px solid rgba(var(--color-primary), 0.3);
+}
+
+/* CSS Variables */
+:root {
+    --color-theme: 0, 30, 56;
+    --color-primary: 201, 226, 223;
+    --color-secondry: 255, 241, 218;
+}
