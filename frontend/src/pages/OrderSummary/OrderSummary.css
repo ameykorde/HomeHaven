@@ -1,0 +1,14 @@
+.summary-item-img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .summary-item-details h5 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .summary-item-details p {
+    margin: 0.3rem 0;
+  }
+  

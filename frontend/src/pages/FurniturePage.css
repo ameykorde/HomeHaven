@@ -1,0 +1,11 @@
+.row.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+.row.flex-nowrap .col {
+  flex: 0 0 auto; /* Prevent columns from wrapping */
+}
+
+.row.flex-nowrap {
+  overflow-x: auto;
+}

@@ -1,0 +1,31 @@
+.cart-item {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  .cart-item-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .cart-item-details {
+    flex-grow: 1;
+  }
+  
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn-primary {
+    background-color: #D83344;
+    border-color: #D83344;
+  }
+  
+  .btn-primary:hover {
+    background-color: #b72a36;
+    border-color: #b72a36;
+  }
+  
