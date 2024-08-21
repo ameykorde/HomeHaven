@@ -1,4 +1,4 @@
-.card1 {
+.custom-scrolling-card {
   flex: 0 0 auto;
   width: 200px; /* Adjust width as needed */
   height: 300px; /* Adjust height as needed */
@@ -10,19 +10,20 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between; /* Ensures the title and image are spaced correctly */
+  cursor: pointer;
 }
 
-.card1:hover {
+.custom-scrolling-card:hover {
   transform: scale(1.05);
 }
 
-.card-img {
+.custom-scrolling-card-img {
   width: 100%;
   height: 60%; /* Adjust height as needed */
   object-fit: cover;
 }
 
-.card-body {
+.custom-scrolling-card-body {
   padding: 0px;
   text-align: center;
   display: flex;
@@ -31,7 +32,6 @@
   flex-grow: 1; /* Makes sure the body expands to fill available space */
 }
 
-.card-title {
+.custom-scrolling-card-title {
   font-size: 14px; /* Adjust font size as needed */
-  
 }

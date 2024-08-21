@@ -17,34 +17,24 @@ const furnitureData = [
     },
     {
         id: 4,
-        name: "Modern Dining Table",
-        image: "https://th.bing.com/th/id/OIP.yj28t9MnnqqunWB3Un8VzAAAAA?rs=1&pid=ImgDetMain",
+        name: "Modern beds",
+        image: "https://assets.furlenco.com/image/upload/dpr_1.0,f_auto,q_auto/v1/r2/products/3624/gallery_1.jpg",
       },
       {
         id: 5,
-        name: "Modern Dining Table",
-        image: "https://th.bing.com/th/id/OIP.yj28t9MnnqqunWB3Un8VzAAAAA?rs=1&pid=ImgDetMain",
-      },
+        name: "Wooden Chair",
+      image: "https://thesleepcompany.in/cdn/shop/files/2_1558bd96-e9d7-48ea-b366-6e76d8a03fe5.jpg?v=1721586756&width=1445",
+    },
       {
         id: 6,
-        name: "Modern Dining Table",
-        image: "https://th.bing.com/th/id/OIP.yj28t9MnnqqunWB3Un8VzAAAAA?rs=1&pid=ImgDetMain",
-      },
+        name: "Modern Sofa",
+      image: "https://cdn.shopify.com/s/files/1/0096/4594/9013/products/Design-Sofa-Set_-American-Style-Modern-Fabric-Upholstered-Sofa-Set_1.png?v=1630733506",
+    },
       {
         id: 7,
         name: "Modern Dining Table",
         image: "https://th.bing.com/th/id/OIP.yj28t9MnnqqunWB3Un8VzAAAAA?rs=1&pid=ImgDetMain",
-      },
-      {
-        id: 8,
-        name: "Modern Dining Table",
-        image: "https://th.bing.com/th/id/OIP.yj28t9MnnqqunWB3Un8VzAAAAA?rs=1&pid=ImgDetMain",
-      },
-      {
-        id: 9,
-        name: "Modern Dining Table",
-        image: "https://th.bing.com/th/id/OIP.yj28t9MnnqqunWB3Un8VzAAAAA?rs=1&pid=ImgDetMain",
-      },
+      }
     // Add more items as needed
   ];
   

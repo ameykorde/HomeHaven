@@ -1,28 +1,12 @@
-/* Set maximum width for the search bar */
-.search-bar {
-  max-width: 300px; /* Adjust width as necessary */
-  border-radius: 0.25rem; /* Add some rounding to match button styles */
-}
-
-/* Adjust navbar background color and padding */
-.navbar {
-  background-color: #343a40; /* Darker color for a more appealing look */
-  padding: 0.75rem 1.5rem; /* Adjusted padding for better spacing */
-}
 
 /* Ensure the logo is appropriately sized */
 .navbar-brand img {
   max-height: 50px; /* Adjusted height to fit better in the navbar */
   height: auto; /* Maintain the aspect ratio */
   width: auto;  /* Maintain the aspect ratio */
-  margin-right: 10px; /* Add some space between the logo and the text */
+  margin-right: 1%; /* Add some space between the logo and the text */
 }
 
-/* Additional spacing adjustments for navbar items */
-.navbar-nav .nav-item {
-  margin-left: 15px;
-  margin-right: 15px;
-}
 
 /* Styling for the dropdown menu */
 .btn-group .dropdown-menu {
@@ -50,7 +34,6 @@
 /* Additional styling for the dropdown items */
 .dropdown-item {
   display: block;
-  padding: 0.5rem 1rem;
   clear: both;
   font-weight: 400;
   color: #212529;
@@ -65,7 +48,7 @@
 .dropdown-item:focus {
   color: #16181b;
   text-decoration: none;
-  background-color: #5b7692;
+  background-color: #a89898;
 }
 
 /* Ensure the dropdown menu is aligned properly */
@@ -76,7 +59,6 @@
 /* Navbar toggle button styling */
 .navbar-toggler {
   border: none; /* Remove border */
-  padding: 0.25rem 0.5rem; /* Adjust padding for better clickability */
   outline: none; /* Remove outline */
 }
 
@@ -94,9 +76,10 @@
 
 .bi-person
 {
-  color: red;
+  color: #14a1af;
 }
 
 .dropdown-toggle::after{
-  color: red;
+  color: #14a1af;
 }
+

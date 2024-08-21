@@ -1,42 +1,69 @@
-import React from "react";
-import "./SectionList.css"; // Import the CSS file
+import React, { useState } from "react";
+import "./SectionList.css";
+
+const sections = [
+  { 
+    name: "Cancellation And Returns", 
+    icon: "package_2", 
+    description: "Learn about our cancellation and return policies." 
+  },
+  { 
+    name: "Care Instruction", 
+    icon: "fact_check", 
+    description: "Tips on how to care for your product to ensure longevity." 
+  },
+  { 
+    name: "Quality Performance", 
+    icon: "thumb_up", 
+    description: "Details about the quality standards we adhere to." 
+  },
+  { 
+    name: "Warranty", 
+    icon: "verified", 
+    description: "Information on the warranty provided for the product." 
+  },
+  { 
+    name: "FAQ", 
+    icon: "help_outline", 
+    description: "Frequently Asked Questions to help you out." 
+  },
+];
 
 const SectionList = () => {
-  const toggleOffcanvas = () => {
-    const offcanvasElement = document.getElementById("offcanvasExample");
-    if (offcanvasElement) {
-      const bsOffcanvas = new window.bootstrap.Offcanvas(offcanvasElement);
-      bsOffcanvas.toggle();
-    } else {
-      console.error("Offcanvas element not found!");
-    }
+  const [selectedSection, setSelectedSection] = useState(null);
+
+  const handleSectionClick = (section) => {
+    setSelectedSection(section);
   };
 
   return (
     <div className="container mt-4">
-      <div className="">
-        {[
-          { name: "Cancellation And Returns", icon: "package_2" },
-          { name: "Care Instruction", icon: "fact_check" },
-          { name: "Quality Performance", icon: "thumb_up" },
-          { name: "Warranty", icon: "verified" },
-          { name: "FAQ", icon: "help_outline" },
-        ].map((section) => (
-          <div key={section.name} className="section-item" onClick={toggleOffcanvas}>
-            <div className="section-content">
-              <span className="material-symbols-outlined icon">{section.icon}</span>
-              <span>{section.name}</span>
-              <span className="material-symbols-outlined arrow">arrow_circle_right</span>
-            </div>
-          </div>
-        ))}
-      </div>
+      {sections.map((section, index) => (
+        <div
+          key={index}
+          className="section-item d-flex align-items-center justify-content-between"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasWithBothOptions"
+          aria-controls="offcanvasWithBothOptions"
+          onClick={() => handleSectionClick(section)}
+        >
+          <span className="material-symbols-outlined icon me-2">{section.icon}</span>
+          <span>{section.name}</span>
+          <span className="material-symbols-outlined arrow">arrow_circle_right</span>
+        </div>
+      ))}
 
-      {/* Offcanvas */}
-      <div className="offcanvas offcanvas-end" id="offcanvasExample">
+      <div
+        className="offcanvas offcanvas-end"
+        data-bs-scroll="true"
+        tabIndex="-1"
+        id="offcanvasWithBothOptions"
+        aria-labelledby="offcanvasWithBothOptionsLabel"
+      >
         <div className="offcanvas-header">
-          <h5 className="offcanvas-title" id="offcanvasExampleLabel">
-            Section Details
+          <h5 className="offcanvas-title" id="offcanvasWithBothOptionsLabel">
+            {selectedSection ? selectedSection.name : "Section Details"}
           </h5>
           <button
             type="button"
@@ -46,7 +73,9 @@ const SectionList = () => {
           ></button>
         </div>
         <div className="offcanvas-body">
-          <p>Here will be the content related to the clicked section.</p>
+          <p>
+            {selectedSection ? selectedSection.description : "Select a section to see more details."}
+          </p>
         </div>
       </div>
     </div>

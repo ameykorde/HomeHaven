@@ -5,16 +5,16 @@
   margin: 20px;
 }
 
-.card {
+.custom-category-card {
   width: 39%;
   cursor: pointer;
   transition: transform 0.2s;
   border: none; /* Optional: removes card border */
   overflow: hidden; /* Ensures images do not overflow card */
-  margin-top: 100px; /* Adds tp margin to each card */
+  margin-top: 100px; /* Adds top margin to each card */
 }
 
-.card:hover {
+.custom-category-card:hover {
   transform: scale(1.05);
 }
 
@@ -26,4 +26,9 @@
 
 .card-body {
   text-align: center;
+}
+
+.custom-card-title {
+  font-weight: bold; /* Makes the card title bold */
+  font-size: 1.5rem; /* Increases the font size */
 }

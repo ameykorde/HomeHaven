@@ -1,8 +1,8 @@
-import HeroCarousel from "../components/HeroCarosel/HeroCarousel";
-import CategoryCards from "../components/CategoryCards/CategoryCards";
-import AppliancesContainer from "../components/AppliancesContainer";
-import FurnitureContainer from "../components/FurnitureContainer";
-import Banner from "./Banner";
+import HeroCarousel from "../../components/HeroCarosel/HeroCarousel";
+import CategoryCards from "./CategoryCards/CategoryCards";
+import AppliancesContainer from "./ScrollingContainers/AppliancesContainer";
+import FurnitureContainer from "./ScrollingContainers/FurnitureContainer";
+import Banner from "./Banner/Banner";
 
 const Home = () => {
   return (

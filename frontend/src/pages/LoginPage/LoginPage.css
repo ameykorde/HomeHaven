@@ -2,18 +2,15 @@
 
 /* Container for the login page */
 .login-container {
-    background-color: #f5f7fa;
-    width: 100%;
-    min-height: 100vh; /* Ensure container takes full viewport height */
+    background-color: #ffffff;
     display: flex;
     align-items: center; /* Center content vertically */
     justify-content: center; /* Center content horizontally */
-    padding-top: 3rem; /* Add top padding to create space from the top */
 }
 
 /* Box for the login form */
 .login-box {
-    background-color: #ffffff;
+    background-color: #f5f7fa;
     padding: 2rem;
     border-radius: 8px;
     width: 100%;

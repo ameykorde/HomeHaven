@@ -2,17 +2,14 @@
 
 /* Container for the registration page */
 .register-container {
-    background-color: #f5f7fa;
-    padding: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
 }
 
 /* Box for the registration form */
 .register-box {
-    background-color: #ffffff;
+    background-color: #f5f7fa;
     padding: 2rem;
     border-radius: 8px;
     width: 100%;

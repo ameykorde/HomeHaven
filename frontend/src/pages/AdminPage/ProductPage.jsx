@@ -1,50 +1,28 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
-import './ProductsPage.css';
+import React, { useState, useEffect } from "react";
+import axios from "axios";
+import "./ProductsPage.css";
+import { BASE_URL } from "../../../services/url";
 
 const ProductsPage = () => {
   const [products, setProducts] = useState([]);
   const [newProduct, setNewProduct] = useState({
-    name: "",
+    product_name: "",
     description: "",
     price: "",
-    category: "Furniture",
+    category: "FURNITURE",
     images: [],
     quantity: 1,
+    type: "Product Type",
   });
 
   useEffect(() => {
-    // Fetch products from backend when the component mounts
+    // Fetch products from the backend when the component mounts
     const fetchProducts = async () => {
       try {
-        const response = await axios.get('/api/products');
-        setProducts([
-          {
-            "id": 1,
-            "name": "Wooden Chair",
-            "description": "A comfortable wooden chair.",
-            "price": 89.99,
-            "images": [
-              "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
-              "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
-              "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
-            ],
-            "quantity": 10
-          },
-          {
-            "id": 2,
-            "name": "Metal Desk",
-            "description": "A sturdy metal desk.",
-            "price": 149.99,
-            "images": [
-              "https://images.unsplash.com/photo-1534081332410-e5ff27b786f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwyNjEyNjJ8MHwxfGFsbHwxfHx8fHx8fHx8fDE2Nzg0MTU0NjY&ixlib=rb-1.2.1&q=80&w=400"
-            ],
-            "quantity": 5
-          }
-        ]
-        );
+        const response = await axios.get(`${BASE_URL}/api/products/category/FURNITURE`);
+        setProducts(response.data);
       } catch (error) {
-        console.error('Error fetching products:', error);
+        console.error("Error fetching products:", error);
       }
     };
 
@@ -53,10 +31,10 @@ const ProductsPage = () => {
 
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`/api/products/${id}`);
-      setProducts(products.filter(product => product.id !== id));
+      await axios.delete(`${BASE_URL}/api/products/${id}`);
+      setProducts(products.filter((product) => product.id !== id));
     } catch (error) {
-      console.error('Error deleting product:', error);
+      console.error("Error deleting product:", error);
     }
   };
 
@@ -72,40 +50,46 @@ const ProductsPage = () => {
 
   const handleAddProduct = async () => {
     if (
-      newProduct.name &&
+      newProduct.product_name &&
       newProduct.description &&
       newProduct.price &&
-      newProduct.images.length
+      newProduct.images.length &&
+      newProduct.type &&
+      newProduct.category &&
+      newProduct.quantity
     ) {
       try {
         const formData = new FormData();
-        formData.append('name', newProduct.name);
-        formData.append('description', newProduct.description);
-        formData.append('price', newProduct.price);
-        formData.append('category', newProduct.category);
-        formData.append('quantity', newProduct.quantity);
-        
+        formData.append("productName", newProduct.product_name);
+        formData.append("description", newProduct.description);
+        formData.append("price", newProduct.price);
+        formData.append("category", newProduct.category);
+        formData.append("quantity", newProduct.quantity);
+        formData.append("type", newProduct.type);
+
+        // Append images to formData
         newProduct.images.forEach((image, index) => {
-          formData.append('images', image);
+          formData.append(`productImage${index + 1}`, image);
         });
 
-        const response = await axios.post('/api/products', formData, {
+        const response = await axios.post(`${BASE_URL}/api/products/add`, formData, {
           headers: {
-            'Content-Type': 'multipart/form-data',
+            "Content-Type": "multipart/form-data",
           },
         });
 
         setProducts([...products, response.data]);
         setNewProduct({
-          name: "",
+          product_name: "",
           description: "",
           price: "",
-          category: "Furniture",
+          category: "FURNITURE",
           images: [],
           quantity: 1,
+          type: "Product Type",
         });
       } catch (error) {
-        console.error('Error adding product:', error);
+        console.error("Error adding product:", error);
       }
     } else {
       alert("Please fill in all fields and upload at least one image.");
@@ -116,6 +100,7 @@ const ProductsPage = () => {
     <div className="container mt-4">
       <h2 className="mt-5">Add New Product</h2>
       <div className="add-product-form mt-3">
+        {/* Form fields for product details */}
         <div className="mb-3">
           <label htmlFor="productName" className="form-label">
             Product Name
@@ -123,10 +108,10 @@ const ProductsPage = () => {
           <input
             id="productName"
             type="text"
-            name="name"
+            name="product_name"
             className="form-control"
             placeholder="Product Name"
-            value={newProduct.name}
+            value={newProduct.product_name}
             onChange={handleInputChange}
           />
         </div>
@@ -168,8 +153,8 @@ const ProductsPage = () => {
             value={newProduct.category}
             onChange={handleInputChange}
           >
-            <option value="Furniture">Furniture</option>
-            <option value="Home Appliances">Home Appliances</option>
+            <option value="FURNITURE">FURNITURE</option>
+            <option value="HOME_APPLIANCES">HOME_APPLIANCES</option>
           </select>
         </div>
         <div className="mb-3">
@@ -184,6 +169,20 @@ const ProductsPage = () => {
             placeholder="Quantity"
             value={newProduct.quantity}
             min="1"
+            onChange={handleInputChange}
+          />
+        </div>
+        <div className="mb-3">
+          <label htmlFor="productType" className="form-label">
+            Type
+          </label>
+          <input
+            id="productType"
+            type="text"
+            name="type"
+            className="form-control"
+            placeholder="Type"
+            value={newProduct.type}
             onChange={handleInputChange}
           />
         </div>
@@ -205,45 +204,49 @@ const ProductsPage = () => {
           Add Product
         </button>
       </div>
-
-      <h1 className="mt-5">Product List</h1>
-      <div className="product-list">
-        {products.length === 0 ? (
-          <p>No products available.</p>
-        ) : (
-          products.map((product) => (
-            <div key={product.id} className="product-card mb-3">
-              <div className="card">
-                <div className="card-body">
-                  <div className="product-image-container mb-3">
-                    {product.images.map((image, index) => (
-                      <img
-                        key={index}
-                        src={image}
-                        alt={product.name}
-                        className="card-img-top"
-                      />
-                    ))}
+      <div className="container mt-5">
+        <h1>Product List</h1>
+        <div className="row">
+          {products.length === 0 ? (
+            <p>No products available.</p>
+          ) : (
+            products.map((product) => (
+              <div key={product.id} className="col-12 col-md-6 col-lg-4 mb-3">
+                <div className="card h-100">
+                  <div className="card-body">
+                    <div className="product-image-container mb-3">
+                      {[product.productImage1, product.productImage2, product.productImage3, product.productImage4].map(
+                        (image, index) =>
+                          image && (
+                            <img
+                              key={index}
+                              src={`data:image/jpeg;base64,${image}`}
+                              alt={product.product_name}
+                              className="card-img-top"
+                            />
+                          )
+                      )}
+                    </div>
+                    <h5 className="card-title">{product.productName}</h5>
+                    <p className="card-text">{product.description}</p>
+                    <p className="card-text">
+                      <strong>Price:</strong> ${product.price.toFixed(2)}
+                    </p>
+                    <p className="card-text">
+                      <strong>Quantity:</strong> {product.quantity}
+                    </p>
+                    <button
+                      className="btn btn-danger"
+                      onClick={() => handleDelete(product.id)}
+                    >
+                      Delete
+                    </button>
                   </div>
-                  <h5 className="card-title">{product.name}</h5>
-                  <p className="card-text">{product.description}</p>
-                  <p className="card-text">
-                    <strong>Price:</strong> ${product.price.toFixed(2)}
-                  </p>
-                  <p className="card-text">
-                    <strong>Quantity:</strong> {product.quantity}
-                  </p>
-                  <button
-                    className="btn btn-danger"
-                    onClick={() => handleDelete(product.id)}
-                  >
-                    Delete
-                  </button>
                 </div>
               </div>
-            </div>
-          ))
-        )}
+            ))
+          )}
+        </div>
       </div>
     </div>
   );

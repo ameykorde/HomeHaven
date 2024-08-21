@@ -4,12 +4,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import NavBar from "./components/Navbar/Navbar";
-import FurniturePage from "./pages/FurniturePage";
-import AppliancesPage from "./pages/AppliancesPage";
-import LoginPage from "./pages/LoginPage";
-import RegisterPage from "./pages/RegisterPage";
-import Home from "./pages/Home";
-import ContactUs from "./pages/ContactUs";
+import FurniturePage from "./pages/FurniturePage/FurniturePage";
+import AppliancesPage from "./pages/AppliancesPage/AppliancesPage";
+import LoginPage from "./pages/LoginPage/LoginPage";
+import RegisterPage from "./pages/RegisterPage/RegisterPage";
+import Home from "./pages/HomePage/Home";
+import ContactUs from "./pages/ContactUs/ContactUs";
 import ProductDescriptionPage from "./pages/ProductDescription/ProductDescription";
 import CartPage from "./pages/CartPage/CartPage";
 import AddressSelectPage from "./pages/AddressSelectPage/AddressSelectPage";
@@ -30,7 +30,7 @@ function App() {
         <Route path="/ContactUs" element={<ContactUs />} />
         <Route path="/furniture" element={<FurniturePage />} />
         <Route path="/appliances" element={<AppliancesPage />} />
-        <Route path="/product/:id" element={<ProductDescriptionPage />} />
+        <Route path="/product/:productId" element={<ProductDescriptionPage />} />
         <Route path="/cart" element={<CartPage />} />
         <Route path="/address" element={<AddressSelectPage />} />
         <Route path="/summary" element={<OrderSummary />} />

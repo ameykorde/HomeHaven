@@ -63,9 +63,6 @@ const Footer = () => {
             © 2024 Company Name. All rights reserved.
           </Col>
           <Col className="text-center">
-            <Button variant="outline-dark" size="sm" className="footer-go-up-button">
-              <MdKeyboardArrowUp /> Go Up
-            </Button>
           </Col>
         </Row>
       </Container>
