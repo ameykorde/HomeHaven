@@ -42,12 +42,3 @@ public class UserService {
     	}
     }
 }
-/*User user = userRepository.findByEmail(email)
-.orElseThrow(() -> new UserNotFoundException("User not found"));
-
-if (password.equals(user.getPassword())) 
-return user;
-else
-throw new InvalidCredentialsException("Invalid");
-    }
-*/
