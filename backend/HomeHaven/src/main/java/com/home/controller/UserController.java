@@ -1,8 +1,5 @@
 package com.home.controller;
 
-
-// src/main/java/com/yourapp/controller/UserController.java
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
