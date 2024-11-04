@@ -10,9 +10,7 @@ import {
 
 const initialState = {
   loading: false,
-  userInfo: localStorage.getItem('userInfo')
-    ? JSON.parse(localStorage.getItem('userInfo'))
-    : null,
+  userInfo: JSON.parse(localStorage.getItem('userInfo')) || null,
   error: null,
   success: null,
 };
@@ -29,24 +27,21 @@ export const authReducer = (state = initialState, action) => {
       };
 
     case LOGIN_SUCCESS:
-      return {
-        loading: false,
-        userInfo: action.payload,
-        error: null,
-        success: 'Login successful!',
-      };
-
     case REGISTER_SUCCESS:
       return {
+        ...state,
         loading: false,
         userInfo: action.payload,
         error: null,
-        success: 'Registration successful! You are now logged in.',
+        success: action.type === LOGIN_SUCCESS 
+          ? 'Login successful!' 
+          : 'Registration successful! You are now logged in.',
       };
 
     case LOGIN_FAIL:
     case REGISTER_FAIL:
       return {
+        ...state,
         loading: false,
         userInfo: null,
         error: action.payload,
@@ -55,6 +50,7 @@ export const authReducer = (state = initialState, action) => {
 
     case LOGOUT:
       return {
+        ...state,
         loading: false,
         userInfo: null,
         error: null,
@@ -65,3 +61,5 @@ export const authReducer = (state = initialState, action) => {
       return state;
   }
 };
+
+export default authReducer;

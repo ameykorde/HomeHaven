@@ -1,181 +1,395 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Spring]]></title><description><![CDATA[Level up your Java code and explore what Spring can do for you.]]></description><link>https://spring.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 18 Aug 2024 00:31:53 GMT</lastBuildDate><item><title><![CDATA[A Bootiful Podcast: Gradle and Develocity engineer and Spring community legend Eric Haag]]></title><link>https://spring.io/blog/2024/08/15/a-bootiful-podcast-gradle-and-develocity-engineer-and-spring-community</link><guid isPermaLink="true">https://spring.io/blog/2024/08/15/a-bootiful-podcast-gradle-and-develocity-engineer-and-spring-community</guid><dc:creator><![CDATA[Josh Long]]></dc:creator><pubDate>Thu, 15 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi, Spring fans! In this episode I talk to Gradle and Develocity engineer and Spring community legend Eric Haag&lt;/p&gt;
-&lt;iframe title=&quot;Gradle and Develocity engineer and Spring community legend Eric Haag&quot; allowtransparency=&quot;true&quot; height=&quot;150&quot; width=&quot;100%&quot; style=&quot;border: none; min-width: min(100%, 430px);height:150px;&quot; scrolling=&quot;no&quot; data-name=&quot;pb-iframe-player&quot; src=&quot;https://www.podbean.com/player-v2/?i=fgcb6-16a21a5-pb&amp;from=pb6admin&amp;share=1&amp;download=1&amp;rtl=0&amp;fonts=Arial&amp;skin=1&amp;font-color=&amp;logo_link=episode_page&amp;btn-skin=7&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;</content:encoded></item><item><title><![CDATA[Spring Framework Releases Fixes for CVE-2024-38808 and CVE-2024-38809]]></title><link>https://spring.io/blog/2024/08/14/spring-framework-releases-fixes-for-cve-2024-38808-and-cve-2024-38809</link><guid isPermaLink="true">https://spring.io/blog/2024/08/14/spring-framework-releases-fixes-for-cve-2024-38808-and-cve-2024-38809</guid><dc:creator><![CDATA[Rossen Stoyanchev]]></dc:creator><pubDate>Wed, 14 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The Spring Framework has released versions 5.3.39, 6.0.23, and 6.1.12 that contain fixes for &lt;a href=&quot;https://spring.io/security/cve-2024-38809&quot;&gt;CVE-2024-38809&lt;/a&gt;, DoS via conditional HTTP requests.&lt;/p&gt;
-&lt;p&gt;The 5.3.39 release contains an additional fix for &lt;a href=&quot;https://spring.io/security/cve-2024-38808&quot;&gt;CVE-2024-38808&lt;/a&gt;, DoS via SpEL expression.&lt;/p&gt;
-&lt;p&gt;Note that version 5.3.39 has fixes for both CVEs. Version 5.3.38 was released earlier on the same day, and it contains the fix for CVE-2024-38809 but not CVE-2024-38808.&lt;/p&gt;
-&lt;h3 id=&quot;upgrading-your-project&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#upgrading-your-project&quot; aria-label=&quot;upgrading your project permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Upgrading Your Project&lt;/h3&gt;
-&lt;p&gt;Commercial customers using Spring Boot 2.7, 3.0, or 3.1 can make use of Spring Boot Hotfix releases 2.7.21.1, 3.0.16.1, and 3.1.12.1. Releases are available now on the Spring commercial artifact repository and can be accessed with a &lt;a href=&quot;https://enterprise.spring.io&quot;&gt;Spring Enterprise Subscription&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring Framework 6.2.0-M7 Available Now]]></title><link>https://spring.io/blog/2024/08/14/spring-framework-6-2-0-m7-available-now</link><guid isPermaLink="true">https://spring.io/blog/2024/08/14/spring-framework-6-2-0-m7-available-now</guid><dc:creator><![CDATA[Simon Baslé]]></dc:creator><pubDate>Wed, 14 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;We are happy to announce the availability of the seventh milestone of Spring Framework 6.2. We shipped quite a few features since the &lt;a href=&quot;https://spring.io/blog/2024/07/18/spring-framework-6-2-0-m6-available-now&quot;&gt;last M6 release&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Spring Framework 6.2.0-M7 is available from &lt;a href=&quot;https://repo.spring.io/milestone&quot;&gt;repo.spring.io/milestone&lt;/a&gt; now, check out the &lt;a href=&quot;https://github.com/spring-projects/spring-framework/releases/tag/v6.2.0-M7&quot;&gt;detailed changelog for this version&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;core-and-native-support&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#core-and-native-support&quot; aria-label=&quot;core and native support permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Core and Native Support&lt;/h2&gt;
-&lt;p&gt;This release contains various improvements in the core of the framework, including to the &lt;a href=&quot;https://github.com/spring-projects/spring-framework/issues/21590&quot;&gt;cache abstraction&apos;s error handling&lt;/a&gt;. It adds a &lt;a href=&quot;https://github.com/spring-projects/spring-framework/issues/33262&quot;&gt;flexible multi-unit format&lt;/a&gt; to the previously introduced &lt;code&gt;Duration&lt;/code&gt; parsing/printing support.&lt;/p&gt;
-&lt;p&gt;On the topic of Native Support, it is now possible to ignore bean registration during AOT processing thanks to a &lt;a href=&quot;https://github.com/spring-projects/spring-framework/issues/33243&quot;&gt;newly introduced attribute&lt;/a&gt;. Beans registered with the &lt;a href=&quot;https://github.com/spring-projects/spring-framework/issues/29555&quot;&gt;Kotlin DSL&lt;/a&gt; are now supported for AOT/native, and this release also fix a couple of AOT-related bugs.&lt;/p&gt;
-&lt;h2 id=&quot;web-and-messaging&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#web-and-messaging&quot; aria-label=&quot;web and messaging permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Web and Messaging&lt;/h2&gt;
-&lt;p&gt;Now that Freemarker supports Jakarta, request parameters and taglibs support &lt;a href=&quot;https://github.com/spring-projects/spring-framework/issues/30186&quot;&gt;has been restored&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;HTTP Interface Client can now &lt;a href=&quot;https://github.com/spring-projects/spring-framework/issues/33309&quot;&gt;define static headers&lt;/a&gt; in the annotations, and can encode &lt;code&gt;Collection&lt;/code&gt;-based &lt;code&gt;@RequestParam&lt;/code&gt; arguments to a &lt;a href=&quot;https://github.com/spring-projects/spring-framework/pull/33220&quot;&gt;single &lt;code&gt;String&lt;/code&gt; in the request&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;In continuation of the early support for rendering of multiple fragments in M5, we now also &lt;a href=&quot;https://github.com/spring-projects/spring-framework/issues/33194&quot;&gt;support these over SSE&lt;/a&gt; (streaming of fragments). If you&apos;re using htmx or turbo, please give it a try!&lt;/p&gt;
-&lt;h2 id=&quot;testing&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#testing&quot; aria-label=&quot;testing permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Testing&lt;/h2&gt;
-&lt;p&gt;Test classes using the &lt;code&gt;@MockitoBean&lt;/code&gt; or &lt;code&gt;@MockitoSpyBean&lt;/code&gt; annotations for bean overriding in tests now setup Mockito for strict stubbing, which can be overridden via the &lt;a href=&quot;https://github.com/spring-projects/spring-framework/issues/33318&quot;&gt;&lt;code&gt;@MockitoBeanSettings&lt;/code&gt; annotation&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;62-features-recap&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#62-features-recap&quot; aria-label=&quot;62 features recap permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;6.2 features recap&lt;/h2&gt;
-&lt;p&gt;Check out our &lt;a href=&quot;https://github.com/spring-projects/spring-framework/wiki/What&amp;#x27;s-New-in-Spring-Framework-6.x#whats-new-in-version-62&quot;&gt;What&apos;s New page&lt;/a&gt; for details about the new features available at this point.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring Framework 6.1.12, 6.0.23, and 5.3.39 Available Now]]></title><link>https://spring.io/blog/2024/08/14/spring-framework-6-1-12-6-0-23-and-5-3-39-available-now</link><guid isPermaLink="true">https://spring.io/blog/2024/08/14/spring-framework-6-1-12-6-0-23-and-5-3-39-available-now</guid><dc:creator><![CDATA[Stéphane Nicoll]]></dc:creator><pubDate>Wed, 14 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Framework &lt;code&gt;6.1.12&lt;/code&gt;, &lt;code&gt;6.0.23&lt;/code&gt; and &lt;code&gt;5.3.39&lt;/code&gt; are available now. While &lt;code&gt;5.3.38&lt;/code&gt; has also been released, it got superseded by &lt;code&gt;5.3.39&lt;/code&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Spring]]></title><description><![CDATA[Level up your Java code and explore what Spring can do for you.]]></description><link>https://spring.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 04 Nov 2024 00:33:54 GMT</lastBuildDate><item><title><![CDATA[This Week in Spring - October 29th, 2024 ]]></title><link>https://spring.io/blog/2024/10/29/this-week-in-spring-october-29th-2024</link><guid isPermaLink="true">https://spring.io/blog/2024/10/29/this-week-in-spring-october-29th-2024</guid><dc:creator><![CDATA[Josh Long]]></dc:creator><pubDate>Tue, 29 Oct 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi, Spring fans! How&apos;re things? It&apos;s almost Halloween! I&apos;m so excited! I&apos;m going as a  PHP program. &lt;em&gt;Boooooooo&lt;/em&gt;...t. I&apos;m writing this from the amazing Vaadin Create conference in Frankfurt, Germany, about to do my keynote for an amazing, Spring-loving audience here. So, without further ado, let&apos;s dive right into it!&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Spring Framework &lt;code&gt;6.1.12&lt;/code&gt; ships with &lt;a href=&quot;https://github.com/spring-projects/spring-framework/releases/tag/v6.1.12&quot;&gt;43 fixes and documentation improvements&lt;/a&gt;. This version will be shipped with &lt;a href=&quot;https://github.com/spring-projects/spring-boot/milestone/354&quot;&gt;Spring Boot 3.2.9&lt;/a&gt; and &lt;a href=&quot;https://github.com/spring-projects/spring-boot/milestone/355&quot;&gt;Spring Boot 3.3.3&lt;/a&gt;, to be released next week.&lt;/li&gt;
-&lt;li&gt;Spring Framework &lt;code&gt;6.0.23&lt;/code&gt; ships with &lt;a href=&quot;https://github.com/spring-projects/spring-framework/releases/tag/v6.0.23&quot;&gt;14 fixes and documentation improvements&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Spring Framework &lt;code&gt;5.3.39&lt;/code&gt; ships with &lt;a href=&quot;https://github.com/spring-projects/spring-framework/releases/tag/v5.3.39&quot;&gt;1 fixes&lt;/a&gt; plus the &lt;a href=&quot;https://github.com/spring-projects/spring-framework/releases/tag/v5.3.38&quot;&gt;12 fixes and documentation improvements of 5.3.38&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/10/28/restclient-support-for-oauth2-in-spring-security-6-4&quot;&gt;&lt;code&gt;RestClient&lt;/code&gt; support for OAuth 2 in Spring Security 6.4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/10/28/spring-modulith-1-3-rc1-1-2-5-and-1-1-10-released&quot;&gt;Spring Modulith 1.3 RC1, 1.2.5, and 1.1.10 released&lt;/a&gt;. The RC has several  cool new contributions, including one from my friend and teammate Cora Iberkleid introducing an archiving event publication completionm mode; and one contribution from me, that supports externalizing events with Spring Integration &lt;code&gt;MessageChannel&lt;/code&gt;s. Nice! Get the bits now!&lt;/li&gt;
+&lt;li&gt;An awesome blog from Marcin Grzejszczak: &lt;a href=&quot;https://spring.io/blog/2024/10/28/lets-use-opentelemetry-with-spring&quot;&gt;&lt;em&gt;Let&apos;s Use OpenTelemetry with Spring&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/10/26/spring-boot-3-4-0-rc1-available-now&quot;&gt;Spring Boot 3.4.0 RC1 is available now&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;in last week&apos;s &lt;em&gt;A Bootiful Podcast&lt;/em&gt;, I talked to GraalVM benevolent dictator &lt;a href=&quot;https://spring.io/blog/2024/10/24/a-bootiful-podcast-graalvm-founder-and-bdfl-thomas-wuerthinger-on-graalpy&quot;&gt;for life and founder Thomas Wuerthinger&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/10/24/spring-integration-6-4-rc1-available&quot;&gt;Spring Integration 6.4 RC1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/10/24/spring-boot-3-3-5-available-now&quot;&gt;Spring Boot 3.3.5 available&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/10/24/spring-framework-6-2-0-rc3-available-now&quot;&gt;Spring Framework 6.2.0 RC3 available now&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/10/24/spring-boot-3-2-11-available-now&quot;&gt;Spring Boot 3.2.11 available now&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/10/25/spring-batch-5-2-0-rc1-is-out&quot;&gt;Spring Batch 5.2.0 RC1 is out&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/10/23/spring-authorization-server-1-4-0-rc1-1-3-3-and-1-2-7-available-now&quot;&gt;Spring Authorization Server 1.4.0 RC1, 1.3.3, and 1.2.7 now available&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/10/23/spring-for-graphql-1-2-9-and-1-3-3-released&quot;&gt;Spring for GraphQL 1.2.9 and 1.3.3 released&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/10/22/spring-amqp-3-2-rc1-available&quot;&gt;Spring AMQP 3.2 RC1 available&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/10/22/spring-for-apache-kafka-3-3-0-rc1-released&quot;&gt;Spring for Apache Kafka 3.3.0 RC1 released&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;I love this &lt;a href=&quot;https://x.com/Sharat_Chander/status/1850960248787612079?s=12&quot;&gt;incredibly comprehensive list of cool people in the Java ecoststem&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;this is an interesting Portuguese-language video on &lt;a href=&quot;https://www.youtube.com/watch?v=LPZPHnYdR2Y&quot;&gt;creating a To-Do list in Spring Boot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Have you seen the &lt;a href=&quot;https://x.com/springtools4/status/1849778824063463666?s=12&quot;&gt;new CRON expressions support in Spring Tools 4&lt;/a&gt;?&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://x.com/christzolov/status/1849731602584105127?s=12&quot;&gt;Spring AI continues its Anthropic integration with support for the newly released Claude 3.5 Sonnet model upgrade&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://neuw.medium.com/spring-boot-aws-roles-anywhere-quick-guide-fb9e85db9c20&quot;&gt;A nice blog by Karanbir Singh on using Spring Boot  AWS Roles Anywhere&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Hey! Readers of Java Magazine (NL), check out Oracle GraalVM developer advocate Alina Yurenko&apos;s new article looking at &lt;a href=&quot;https://x.com/alina_yurenko/status/1849428784346247233?s=46&amp;#x26;t=n-UflcIbnx1lage-TBk0Cg&quot;&gt;the amazing opportunity in using Spring and GraalVM together&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Did you see the &lt;a href=&quot;https://x.com/sdeleuze/status/1849489721556418920?s=46&amp;#x26;t=n-UflcIbnx1lage-TBk0Cg&quot;&gt;latest Spring Boot 3.3.5 release has an incredible optimization for scalability in R2DBC (and, for the moment, PostgreSQL)&lt;/a&gt;?&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://x.com/maciejwalkowiak/status/1848788458350784974?s=12&quot;&gt;A recap for those who need it: Aggregate Design Rules according to Vaughn Vernon&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[RestClient Support for OAuth2 in Spring Security 6.4]]></title><link>https://spring.io/blog/2024/10/28/restclient-support-for-oauth2-in-spring-security-6-4</link><guid isPermaLink="true">https://spring.io/blog/2024/10/28/restclient-support-for-oauth2-in-spring-security-6-4</guid><dc:creator><![CDATA[Steve Riesenberg]]></dc:creator><pubDate>Mon, 28 Oct 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;In Spring Security 6.2 and 6.3, we have worked to steadily improve configuration for applications using OAuth2 Client.
+Configuration for common use cases has been simplified by allowing applications to publish beans which are automatically included in the overall OAuth2 Client configuration during application startup.
+Recent improvements include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Extension grant types can be enabled simply by publishing a bean of type &lt;code&gt;OAuth2AuthorizedClientProvider&lt;/code&gt; (or &lt;code&gt;ReactiveOAuth2AuthorizedClientProvider&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;OAuth 2.0 Access Token Requests can be extended with custom parameters simply by publishing one or more beans of type &lt;code&gt;OAuth2AccessTokenResponseClient&lt;/code&gt; (or &lt;code&gt;ReactiveOAuth2AccessTokenResponseClient&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Spring Security automatically publishes a bean of type &lt;code&gt;OAuth2AuthorizedClientManager&lt;/code&gt; (or &lt;code&gt;ReactiveOAuth2AuthorizedClientManager&lt;/code&gt;) if one is not already published, requiring less boilerplate configuration when an application needs to obtain access tokens&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Please note that OSS support for &lt;code&gt;5.3.x&lt;/code&gt; and &lt;code&gt;6.0.x&lt;/code&gt; ends on August 31, 2024. As such, &lt;code&gt;5.3.39&lt;/code&gt; and &lt;code&gt;6.0.23&lt;/code&gt; are meant to be the last OSS releases. Commercial support &lt;a href=&quot;https://enterprise.spring.io/&quot;&gt;is available&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://spring.io/projects/spring-framework/&quot;&gt;Project Page&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-framework&quot;&gt;GitHub&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-framework/issues&quot;&gt;Issues&lt;/a&gt; | &lt;a href=&quot;https://docs.spring.io/spring-framework/reference/&quot;&gt;Documentation&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[This Week in Spring - August 13th, 2024]]></title><link>https://spring.io/blog/2024/08/13/this-week-in-spring-august-13th-2024</link><guid isPermaLink="true">https://spring.io/blog/2024/08/13/this-week-in-spring-august-13th-2024</guid><dc:creator><![CDATA[Josh Long]]></dc:creator><pubDate>Tue, 13 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi, Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! It&apos;s Tuesday and work is well underway to prepare for the huge SpringOne event in Las Vegas in just a few short week&apos;s time! I&apos;m elated! So, let&apos;s get this roundup on the road so I can get back to the preparation frenzy...&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/08/09/spring-ai-embraces-openais-structured-outputs-enhancing-json-response&quot;&gt;Spring AI Embraces OpenAI&apos;s Structured Outputs: Enhancing JSON Response Reliability&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/08/08/a-bootiful-podcast-spring-cloud-dataflow-spring-cloud-task-and-spring-batch&quot;&gt;A Bootiful Podcast: Spring Cloud Dataflow, Spring Cloud Task, and Spring Batch legend Glenn Renfro&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/08/07/spring-tips-htmx&quot;&gt;in last week&apos;s installment of &lt;em&gt;Spring Tips&lt;/em&gt;, I looked at using Spring Boot and HTMX together&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;I love this: a bunch of opensource projects are working on a common set of annotations &lt;a href=&quot;https://www.infoq.com/news/2024/08/jspecify-java-nullability/&quot;&gt;to convey nullability and null-restricted types in Java&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;I love this: IntelliJ IDEA has a &lt;a href=&quot;https://x.com/yuriy_artamonov/status/1822370489597133287?s=61&quot;&gt;new feature: multi-project workspaces&lt;/a&gt;, which adds support for opening multiple projects in one window. Supports Maven, Gradle and arbitrary projects in IntelliJ IDEA.&lt;/li&gt;
-&lt;li&gt;nice find from Microsoft&apos;s Julien Dubois: French Olympic gold medalist Leon Marchand, fresh off winning four gold medals in swimming &lt;a href=&quot;https://olympics.com/fr/infos/leon-marchand-capable-rivaliser-meilleurs&quot;&gt;in the 2024 Paris Olympics, is a student at Arizona State University and studying Java&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;I am so looking forward to the SpringOne event! &lt;a href=&quot;https://springone.io&quot;&gt;Are you registered?&lt;/a&gt;. SpringOne is a part of VMware Explore. I&apos;ll be doing most of my talks on the livestream and one, with Spring Security lead Rob Winch, offstream. Here&apos;s &lt;a href=&quot;https://event.vmware.com/flow/vmware/explore2024lv/content/page/catalog?search=%22Josh%20Long%22&amp;#x26;tab.contentcatalogtabs=1627421929827001vRXW&quot;&gt;all the content I&apos;ll be a part of&lt;/a&gt;. The keynote figures to be amazing, of course, with a huge ensemble cast. That&apos;s a must-not-miss, of course. I&apos;ll be doing my normal Bootiful Spring Boot talk, too. And I&apos;ll be doing a talk on Passkeys with Spring Security lead Rob Winch. And, I&apos;ll be doing an Introduction to Spring AI with none other than Spring AI lead Dr. Mark Pollack and Spring founder Dr. Rod Johnson! Do not miss any of these!&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Spring AI Embraces OpenAI's Structured Outputs: Enhancing JSON Response Reliability]]></title><link>https://spring.io/blog/2024/08/09/spring-ai-embraces-openais-structured-outputs-enhancing-json-response</link><guid isPermaLink="true">https://spring.io/blog/2024/08/09/spring-ai-embraces-openais-structured-outputs-enhancing-json-response</guid><dc:creator><![CDATA[Christian Tzolov]]></dc:creator><pubDate>Fri, 09 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;OpenAI recently &lt;a href=&quot;https://openai.com/index/introducing-structured-outputs-in-the-api/&quot;&gt;introduced&lt;/a&gt; a powerful feature called Structured Outputs, which ensures that AI-generated responses adhere strictly to a predefined JSON schema. This feature significantly improves the reliability and usability of AI-generated content in real-world applications. Today, we&apos;re excited to announce that Spring AI (1.0.0-SNAPSHOT) has &lt;a href=&quot;https://docs.spring.io/spring-ai/reference/api/chat/openai-chat.html#_structured_outputs&quot;&gt;fully integrated support&lt;/a&gt; for OpenAI&apos;s Structured Outputs, bringing this capability to Java developers in a seamless, Spring-native way.&lt;/p&gt;
-&lt;p&gt;Following diagram shows how the new Structured Outputs feature extends the &lt;a href=&quot;https://platform.openai.com/docs/api-reference/chat&quot;&gt;OpenAI Chat API&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;//images.ctfassets.net/mnrwi97vnhts/76DUCzHLPmiqz2GXcvPEXw/2370f14669c63cb8037abc2dbc7ee47f/Restored_Spring_AI__2_.jpg&quot; alt=&quot;Restored Spring AI (2)&quot;&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Spring AI already provides a powerful, &lt;a href=&quot;https://docs.spring.io/spring-ai/reference/api/structured-output-converter.html&quot;&gt;Model-agnostic Structured Output&lt;/a&gt; utilities that can be use with various AI models including the OpenAI.
-The OpenAI Structured Outputs feature offers an additional, consistent, but a model specific solution, currently available only to the &lt;code&gt;gpt-4o&lt;/code&gt;, &lt;code&gt;gpt-4o-mini&lt;/code&gt; and later models.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;The OpenAI &lt;code&gt;Structured Outputs&lt;/code&gt; feature guarantees the AI model will generate responses that conform to a supplied &lt;a href=&quot;https://json-schema.org/overview/what-is-jsonschema&quot;&gt;JSON Schema&lt;/a&gt;. This addresses several common challenges in AI-powered applications: &lt;strong&gt;Type Safety&lt;/strong&gt;: No more worrying about missing required keys or invalid enum values; &lt;strong&gt;Explicit Refusals&lt;/strong&gt;: Safety-based model refusals become programmatically detectable; &lt;strong&gt;Simplified Prompting&lt;/strong&gt;: Achieve consistent formatting without resorting to overly specific prompts.&lt;/p&gt;
-&lt;p&gt;Spring AI allows developers to leverage this feature with minimal configuration. Let&apos;s explore how you can use it in your Spring applications.&lt;/p&gt;
-&lt;h2 id=&quot;programmatic-configuration&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#programmatic-configuration&quot; aria-label=&quot;programmatic configuration permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Programmatic Configuration&lt;/h2&gt;
-&lt;p&gt;You can set the response format programmatically with the OpenAiChatOptions builder as shown below:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;String jsonSchema = &quot;&quot;&quot;
-  {
-      &quot;type&quot;: &quot;object&quot;,
-      &quot;properties&quot;: {
-          &quot;steps&quot;: {
-              &quot;type&quot;: &quot;array&quot;,
-              &quot;items&quot;: {
-                  &quot;type&quot;: &quot;object&quot;,
-                  &quot;properties&quot;: {
-                      &quot;explanation&quot;: { &quot;type&quot;: &quot;string&quot; },
-                      &quot;output&quot;: { &quot;type&quot;: &quot;string&quot; }
-                  },
-                  &quot;required&quot;: [&quot;explanation&quot;, &quot;output&quot;],
-                  &quot;additionalProperties&quot;: false
-              }
-          },
-          &quot;final_answer&quot;: { &quot;type&quot;: &quot;string&quot; }
-      },
-      &quot;required&quot;: [&quot;steps&quot;, &quot;final_answer&quot;],
-      &quot;additionalProperties&quot;: false
-  }
-  &quot;&quot;&quot;;
-
-Prompt prompt = new Prompt(&quot;how can I solve 8x + 7 = -23&quot;,
-  OpenAiChatOptions.builder()
-      .withModel(ChatModel.GPT_4_O_MINI)
-      .withResponseFormat(new ResponseFormat(ResponseFormat.Type.JSON_SCHEMA, jsonSchema))
-      .build());
-
-ChatResponse response = this.openAiChatModel.call(prompt);
+&lt;p&gt;In Spring Security 6.4, this theme continues with a round of improvements focused on &lt;code&gt;RestClient&lt;/code&gt;, which is a new HTTP client introduced in Spring Framework 6.1.
+&lt;code&gt;RestClient&lt;/code&gt; provides a fluent API that is incredibly similar to that of &lt;code&gt;WebClient&lt;/code&gt; but is synchronous and does not depend on reactive libraries.
+This means that configuring an application to make protected resources requests using OAuth2 Client is much simpler and does not require any additional dependencies.
+Additionally, improvements have been made to provide consistency between servlet applications using &lt;code&gt;RestClient&lt;/code&gt; and reactive applications using &lt;code&gt;WebClient&lt;/code&gt; with the goal of aligning both stacks on a common configuration model.&lt;/p&gt;
+&lt;p&gt;Let&apos;s examine the new support for &lt;code&gt;RestClient&lt;/code&gt; and other improvements for OAuth2 Client in detail.&lt;/p&gt;
+&lt;h2 id=&quot;a-brief-introduction-to-oauth2&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#a-brief-introduction-to-oauth2&quot; aria-label=&quot;a brief introduction to oauth2 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;A brief introduction to OAuth2&lt;/h2&gt;
+&lt;p&gt;First, let&apos;s start by summarizing the relevant concepts in OAuth2 that we will be using.&lt;/p&gt;
+&lt;p&gt;In OAuth2 terms, making a &lt;em&gt;protected resources request&lt;/em&gt; means including an access token in the &lt;code&gt;Authorization&lt;/code&gt; header of an outbound request to a &lt;em&gt;resource server&lt;/em&gt;.
+The originating application is called a &lt;em&gt;client&lt;/em&gt; because it initiates these outbound requests.
+The destination application is called a &lt;em&gt;resource server&lt;/em&gt; because it provides an API to access &lt;em&gt;resources&lt;/em&gt; (e.g. data) that belong to a &lt;em&gt;resource owner&lt;/em&gt; (e.g. user) and are protected by an &lt;em&gt;authorization server&lt;/em&gt;.
+An &lt;em&gt;authorization server&lt;/em&gt; is a system responsible for creating and managing access tokens representing an &lt;em&gt;authorization grant&lt;/em&gt;, which it does in response to requests (called OAuth 2.0 Access Token requests) from a &lt;em&gt;client&lt;/em&gt; on behalf of a &lt;em&gt;resource owner&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;make-protected-resources-requests-with-restclient&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#make-protected-resources-requests-with-restclient&quot; aria-label=&quot;make protected resources requests with restclient permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Make protected resources requests with &lt;code&gt;RestClient&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;With that brief introduction, let&apos;s look at how we would set up an application to make protected resources requests using &lt;code&gt;RestClient&lt;/code&gt; in Spring Security 6.4.
+Head on over to &lt;a href=&quot;https://start.spring.io/#!platformVersion=3.4.0-RC1&amp;#x26;dependencies=web,oauth2-client&quot;&gt;Spring Initializr&lt;/a&gt; to create a new application.
+If you are updating an existing application with Spring Boot, you will need to add the following dependency:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-groovy&quot;&gt;implementation &apos;org.springframework.boot:spring-boot-starter-oauth2-client&apos;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; You must adhere to the OpenAI &lt;a href=&quot;https://platform.openai.com/docs/guides/structured-outputs/supported-schemas&quot;&gt;subset of the JSON Schema&lt;/a&gt; language format.&lt;/p&gt;
-&lt;h3 id=&quot;using-the-beanoutputconverter&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#using-the-beanoutputconverter&quot; aria-label=&quot;using the beanoutputconverter permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Using the BeanOutputConverter&lt;/h3&gt;
-&lt;p&gt;Spring AI provides a convenient &lt;a href=&quot;https://docs.spring.io/spring-ai/reference/api/structured-output-converter.html#_bean_output_converter&quot;&gt;BeanOutputConverter&lt;/a&gt; utility that can automatically generate JSON schemas from your domain objects and convert structured responses into Java instances:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;record MathReasoning(
-  @JsonProperty(required = true, value = &quot;steps&quot;) Steps steps,
-  @JsonProperty(required = true, value = &quot;final_answer&quot;) String finalAnswer) {
+&lt;p&gt;The application requires at least one &lt;code&gt;ClientRegistration&lt;/code&gt; to be configured through the use of a &lt;code&gt;ClientRegistrationRepository&lt;/code&gt; bean.
+The &lt;code&gt;ClientRegistration&lt;/code&gt; class is the domain model in Spring Security that contains the data for a particular OAuth2 client.
+Each client must be pre-registered with the authorization server, and this class contains details obtained from the authorization server such as &lt;code&gt;clientId&lt;/code&gt; and &lt;code&gt;clientSecret&lt;/code&gt;.
+It also contains the &lt;code&gt;authorizationGrantType&lt;/code&gt; we would like to use, such as &lt;code&gt;authorization_code&lt;/code&gt; or &lt;code&gt;client_credentials&lt;/code&gt;, and several additional parameters which can be optionally configured as required.&lt;/p&gt;
+&lt;p&gt;The following example configures an &lt;code&gt;InMemoryClientRegistrationRepository&lt;/code&gt; bean with a single &lt;code&gt;ClientRegistration&lt;/code&gt; using Spring Boot configuration properties:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;application.yml&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          messaging-client:
+            provider: spring
+            client-id: client1
+            client-secret: my-secret
+            authorization-grant-type: authorization_code
+            scope: message.read,message.write
+        provider:
+          spring:
+            issuer-uri: http://localhost:9000
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The above configuration allows Spring Security to obtain access tokens via the &lt;code&gt;authorization_code&lt;/code&gt; grant using a &lt;a href=&quot;https://spring.io/projects/spring-authorization-server&quot;&gt;local authorization server&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Spring Security provides implementations of &lt;code&gt;OAuth2AuthorizedClientManager&lt;/code&gt;, which is a component that can be used to obtain access tokens (such as a JWT).
+An instance of this component is automatically published as a bean by Spring Security, meaning we simply need to inject it into our own configuration in order to set up a &lt;code&gt;RestClient&lt;/code&gt; for making protected resources requests in our application.
+The following example configures a minimal &lt;code&gt;RestClient&lt;/code&gt; and publishes it as a bean:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;@Configuration
+public class RestClientConfig {
 
-  record Steps(
-    @JsonProperty(required = true, value = &quot;items&quot;) Items[] items) {
+	@Bean
+	public RestClient restClient(RestClient.Builder builder, OAuth2AuthorizedClientManager authorizedClientManager) {
+		OAuth2ClientHttpRequestInterceptor requestInterceptor =
+			new OAuth2ClientHttpRequestInterceptor(authorizedClientManager);
 
-    record Items(
-      @JsonProperty(required = true, value = &quot;explanation&quot;) String explanation,
-      @JsonProperty(required = true, value = &quot;output&quot;) String output) {}
-  }
+		return builder.requestInterceptor(requestInterceptor).build();
+	}
+
 }
-
-var outputConverter = new BeanOutputConverter&amp;#x3C;&gt;(MathReasoning.class);
-
-var jsonSchema = outputConverter.getJsonSchema();
-
-Prompt prompt = new Prompt(&quot;how can I solve 8x + 7 = -23&quot;,
-  OpenAiChatOptions.builder()
-      .withModel(ChatModel.GPT_4_O_MINI)
-      .withResponseFormat(new ResponseFormat(ResponseFormat.Type.JSON_SCHEMA, jsonSchema))
-      .build());
-
-ChatResponse response = this.openAiChatModel.call(prompt);
-String content = response.getResult().getOutput().getContent();
-
-MathReasoning mathReasoning = outputConverter.convert(content);
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; Ensure you use the &lt;code&gt;@JsonProperty(required = true,…?)&lt;/code&gt; annotation.
-This is crucial for generating a schema that accurately marks fields as required. OpenAI &lt;a href=&quot;https://platform.openai.com/docs/guides/structured-outputs/all-fields-must-be-required&quot;&gt;mandates&lt;/a&gt; it for the structured response to function correctly.&lt;/p&gt;
-&lt;h2 id=&quot;configuring-via-application-properties&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#configuring-via-application-properties&quot; aria-label=&quot;configuring via application properties permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Configuring via Application Properties&lt;/h2&gt;
-&lt;p&gt;Alternatively, when using the &lt;a href=&quot;https://docs.spring.io/spring-ai/reference/api/chat/openai-chat.html#_auto_configuration&quot;&gt;OpenAI auto-configuration&lt;/a&gt;, you can configure the desired response format through the following &lt;a href=&quot;https://docs.spring.io/spring-ai/reference/api/chat/openai-chat.html#_chat_properties&quot;&gt;chat application properties&lt;/a&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;spring.ai.openai.api-key=YOUR_API_KEY
-spring.ai.openai.chat.options.model=gpt-4o-mini
+&lt;p&gt;We can now make protected resources requests in our own application.
+The following example demonstrates doing this in a Spring MVC controller:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;import static org.springframework.security.oauth2.client.web.client.RequestAttributeClientRegistrationIdResolver.clientRegistrationId;
 
-spring.ai.openai.chat.options.response-format.type=JSON_SCHEMA
-spring.ai.openai.chat.options.response-format.name=MySchemaName
-spring.ai.openai.chat.options.response-format.schema={&quot;type&quot;:&quot;object&quot;,&quot;properties&quot;:{&quot;steps&quot;:{&quot;type&quot;:&quot;array&quot;,&quot;items&quot;:{&quot;type&quot;:&quot;object&quot;,&quot;properties&quot;:{&quot;explanation&quot;:{&quot;type&quot;:&quot;string&quot;},&quot;output&quot;:{&quot;type&quot;:&quot;string&quot;}},&quot;required&quot;:[&quot;explanation&quot;,&quot;output&quot;],&quot;additionalProperties&quot;:false}},&quot;final_answer&quot;:{&quot;type&quot;:&quot;string&quot;}},&quot;required&quot;:[&quot;steps&quot;,&quot;final_answer&quot;],&quot;additionalProperties&quot;:false}
-spring.ai.openai.chat.options.response-format.strict=true
+@RestController
+public class MessagesController {
+
+	private final RestClient restClient;
+
+	public MessagesController(RestClient restClient) {
+		this.restClient = restClient;
+	}
+
+	@GetMapping(&quot;/messages&quot;)
+	public ResponseEntity&amp;#x3C;List&amp;#x3C;Message&gt;&gt; messages() {
+		Message[] messages = this.restClient.get()
+			.uri(&quot;http://localhost:8090/messages&quot;)
+			.attributes(clientRegistrationId(&quot;messaging-client&quot;))
+			.retrieve()
+			.body(Message[].class);
+
+		return ResponseEntity.ok(Arrays.asList(messages));
+	}
+
+	public record Message(String message) {
+	}
+
+}
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h1 id=&quot;refusal-response&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#refusal-response&quot; aria-label=&quot;refusal response permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Refusal Response&lt;/h1&gt;
-&lt;p&gt;When using Structured Outputs, OpenAI models may occasionally refuse to fulfill the request for safety reasons. Since a refusal does not necessarily follow the schema you have supplied in response_format, the API response includes a new field called &lt;code&gt;refusal&lt;/code&gt; to indicate that the model refused to fulfill the request.&lt;/p&gt;
-&lt;p&gt;Spring AI maps this refusal field to the &lt;a href=&quot;https://github.com/spring-projects/spring-ai/blob/main/spring-ai-core/src/main/java/org/springframework/ai/chat/messages/AssistantMessage.java#L34&quot;&gt;AssistantMessage&lt;/a&gt;&apos;s metadata. Search by &lt;code&gt;refusal&lt;/code&gt; key.&lt;/p&gt;
-&lt;h1 id=&quot;future-work&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#future-work&quot; aria-label=&quot;future work permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Future work&lt;/h1&gt;
-&lt;p&gt;We are exploring the possibilities to integrate the new OpenAI specific Structured Outputs features into Spring AI&apos;s Model-agnostic Structured Output utility set.&lt;/p&gt;
-&lt;h1 id=&quot;references&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#references&quot; aria-label=&quot;references permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;References&lt;/h1&gt;
-&lt;p&gt;For further information check the Spring AI and OpenAI reference documentations.&lt;/p&gt;
+&lt;p&gt;The above example makes use of a static method to provide the &lt;code&gt;registrationId&lt;/code&gt; of &lt;code&gt;&quot;messaging-client&quot;&lt;/code&gt; to the interceptor through attributes.
+The value provided matches the value in the yaml configuration provided earlier, which is how Spring Security is able to know which client id, secret, grant type, scopes and other information to use when obtaining an access token.&lt;/p&gt;
+&lt;!--
+&gt; NOTE: Notice that all other aspects of OAuth2 for the Authorization Code grant are taken care of by Spring Security. Developers do not need to write any other code to use OAuth2.
+--&gt;
+&lt;p&gt;Of course, this is just an example and you are not restricted to simply returning the results in an endpoint.
+You can do this in any part of your application that you wish, such as an &lt;code&gt;@Service&lt;/code&gt; or &lt;code&gt;@Component&lt;/code&gt; that is responsible for making protected resources requests and returning the results to your application.&lt;/p&gt;
+&lt;h2 id=&quot;make-oauth-20-access-token-requests-with-restclient&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#make-oauth-20-access-token-requests-with-restclient&quot; aria-label=&quot;make oauth 20 access token requests with restclient permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Make OAuth 2.0 Access Token requests with &lt;code&gt;RestClient&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;Prior to Spring Security 6.4, the default HTTP client for the servlet stack was &lt;code&gt;RestTemplate&lt;/code&gt;.
+Customizing OAuth 2.0 Access Token requests for servlet applications using &lt;code&gt;RestTemplate&lt;/code&gt; is quite different from customizing reactive applications that use &lt;code&gt;WebClient&lt;/code&gt; due to differences in the API between &lt;code&gt;RestTemplate&lt;/code&gt; and &lt;code&gt;WebClient&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;With the introduction of &lt;code&gt;RestClient&lt;/code&gt; in Spring Framework 6.1, it is now possible to align both stacks with very similar configuration models by utilizing &lt;code&gt;RestClient&lt;/code&gt; and &lt;code&gt;WebClient&lt;/code&gt; as the underlying HTTP clients for each stack, respectively.
+If needed, a &lt;code&gt;RestClient&lt;/code&gt; can be created from &lt;code&gt;RestTemplate&lt;/code&gt; using &lt;code&gt;RestClient.create(RestTemplate)&lt;/code&gt;, providing a clear migration path for aligning the servlet and reactive stacks on a common configuration model, which is a goal for Spring Security 7.&lt;/p&gt;
+&lt;p&gt;Spring Security 6.4 introduces new implementations of &lt;code&gt;OAuth2AccessTokenResponseClient&lt;/code&gt; for this purpose.
+If desired, you can opt-in to using &lt;code&gt;RestClient&lt;/code&gt; as the HTTP client for all OAuth2 Client features in a servlet application.
+The following example demonstrates a minimal configuration for opting into the new support with a customized instance of &lt;code&gt;RestClient&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;@Configuration
+@EnableWebSecurity
+public class SecurityConfig {
+
+	private final RestClient restClient;
+
+	@PostConstruct
+	void initialize() {
+		this.restClient = RestClient.builder()
+			.messageConverters((messageConverters) -&gt; {
+				messageConverters.clear();
+				messageConverters.add(new FormHttpMessageConverter());
+				messageConverters.add(new OAuth2AccessTokenResponseHttpMessageConverter());
+			})
+			.defaultStatusHandler(new OAuth2ErrorResponseErrorHandler())
+			// TODO: Customize the instance of RestClient as needed...
+			.build();
+	}
+
+	@Bean
+	public OAuth2AccessTokenResponseClient&amp;#x3C;OAuth2AuthorizationCodeGrantRequest&gt; authorizationCodeAccessTokenResponseClient() {
+		RestClientAuthorizationCodeTokenResponseClient accessTokenResponseClient =
+			new RestClientAuthorizationCodeTokenResponseClient();
+		accessTokenResponseClient.setRestClient(this.restClient);
+
+		return accessTokenResponseClient;
+	}
+
+	@Bean
+	public OAuth2AccessTokenResponseClient&amp;#x3C;OAuth2RefreshTokenGrantRequest&gt; refreshTokenAccessTokenResponseClient() {
+		RestClientRefreshTokenTokenResponseClient accessTokenResponseClient =
+			new RestClientRefreshTokenTokenResponseClient();
+		accessTokenResponseClient.setRestClient(this.restClient);
+
+		return accessTokenResponseClient;
+	}
+
+	@Bean
+	public OAuth2AccessTokenResponseClient&amp;#x3C;OAuth2ClientCredentialsGrantRequest&gt; clientCredentialsAccessTokenResponseClient() {
+		RestClientClientCredentialsTokenResponseClient accessTokenResponseClient =
+			new RestClientClientCredentialsTokenResponseClient();
+		accessTokenResponseClient.setRestClient(this.restClient);
+
+		return accessTokenResponseClient;
+	}
+
+	@Bean
+	public OAuth2AccessTokenResponseClient&amp;#x3C;OAuth2PasswordGrantRequest&gt; passwordAccessTokenResponseClient() {
+		return (grantRequest) -&gt; {
+			throw new UnsupportedOperationException(&quot;The `password` grant type is not supported.&quot;);
+		};
+	}
+
+	@Bean
+	public OAuth2AccessTokenResponseClient&amp;#x3C;JwtBearerGrantRequest&gt; jwtBearerAccessTokenResponseClient() {
+		RestClientJwtBearerTokenResponseClient accessTokenResponseClient =
+			new RestClientJwtBearerTokenResponseClient();
+		accessTokenResponseClient.setRestClient(this.restClient);
+
+		return accessTokenResponseClient;
+	}
+
+	@Bean
+	public OAuth2AccessTokenResponseClient&amp;#x3C;TokenExchangeGrantRequest&gt; tokenExchangeAccessTokenResponseClient() {
+		RestClientTokenExchangeTokenResponseClient accessTokenResponseClient =
+			new RestClientTokenExchangeTokenResponseClient();
+		accessTokenResponseClient.setRestClient(this.restClient);
+
+		return accessTokenResponseClient;
+	}
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;NOTE: There is no implementation for the &lt;code&gt;password&lt;/code&gt; grant type with the new support, since existing support for this grant type is deprecated and scheduled to be removed in Spring Security 7.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;override-or-omit-default-parameters&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#override-or-omit-default-parameters&quot; aria-label=&quot;override or omit default parameters permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Override or omit default parameters&lt;/h2&gt;
+&lt;p&gt;Spring Security provides support for several grant types through implementations of the &lt;code&gt;OAuth2AccessTokenResponseClient&lt;/code&gt; (or &lt;code&gt;ReactiveOAuth2AccessTokenResponseClient&lt;/code&gt;) interface.
+A common requirement is being able to customize the parameters of an OAuth 2.0 Access Token request, which is typical when the authorization server has specific requirements or provides features not covered in a supported specification.&lt;/p&gt;
+&lt;p&gt;In Spring Security 6.3 and earlier, it was not possible for reactive applications to override or omit parameter values set by Spring Security, requiring workarounds to customize the application for such use cases.
+Overriding parameters is now possible for both reactive applications (using &lt;code&gt;WebClient&lt;/code&gt;) and servlet applications (using &lt;code&gt;RestClient&lt;/code&gt;) via the &lt;code&gt;setParametersConverter()&lt;/code&gt; customization hook.
+In this case, it&apos;s important to note that all grant-type specific and default parameters will be set first.
+Any parameters provided by your custom &lt;code&gt;parametersConverter&lt;/code&gt; will override existing parameters.&lt;/p&gt;
+&lt;p&gt;In addition to overriding parameters, it is now possible to omit parameters that may be rejected by the authorization server.
+For example, when the &lt;code&gt;ClientRegistration#clientAuthenticationMethod&lt;/code&gt; is set to &lt;code&gt;private_key_jwt&lt;/code&gt;, we can provide client authentication using a client assertion containing a generated JWT.
+Some authorization servers may choose to reject requests that contain both the &lt;code&gt;client_id&lt;/code&gt; &lt;em&gt;and&lt;/em&gt; &lt;code&gt;client_assertion&lt;/code&gt; parameters.
+In this case, because &lt;code&gt;client_id&lt;/code&gt; is a default parameter provided by Spring Security, we need a way to omit this parameter based on the knowledge that we will be providing client authentication using a client assertion.&lt;/p&gt;
+&lt;p&gt;Spring Security 6.4 provides the ability to omit parameters of the OAuth 2.0 Access Token request using the &lt;code&gt;setParametersCustomizer()&lt;/code&gt; customization hook.
+The following example shows how to omit the &lt;code&gt;client_id&lt;/code&gt; parameter when using a client assertion for client authentication with the &lt;code&gt;client_credentials&lt;/code&gt; grant:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;@Configuration
+@EnableWebFluxSecurity
+public class SecurityConfig {
+
+	@Bean
+	public ReactiveOAuth2AccessTokenResponseClient&amp;#x3C;OAuth2ClientCredentialsGrantRequest&gt; clientCredentialsAccessTokenResponseClient() {
+		WebClientReactiveClientCredentialsTokenResponseClient accessTokenResponseClient =
+			new WebClientReactiveClientCredentialsTokenResponseClient();
+		accessTokenResponseClient.addParametersConverter(
+			new NimbusJwtClientAuthenticationParametersConverter&amp;#x3C;&gt;(jwkResolver()));
+		accessTokenResponseClient.setParametersCustomizer((parameters) -&gt; {
+			if (parameters.containsKey(OAuth2ParameterNames.CLIENT_ASSERTION)) {
+				parameters.remove(OAuth2ParameterNames.CLIENT_ID);
+			}
+		});
+
+		return accessTokenResponseClient;
+	}
+
+	private Function&amp;#x3C;ClientRegistration, JWK&gt; jwkResolver() {
+		// ...
+	}
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;TIP: You can provide equivalent configuration for servlet applications when using the &lt;code&gt;RestClientClientCredentialsTokenResponseClient&lt;/code&gt; (or alternate implementations for other grant types) as well.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;conclusion&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#conclusion&quot; aria-label=&quot;conclusion permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Spring Security 6.4 is an exciting release full of improvements for applications secured with OAuth2, and contains many other exciting features as well.
+In this post, we examined three new features from the upcoming release.
+First, we discussed making protected resources requests with &lt;code&gt;RestClient&lt;/code&gt; in non-reactive applications without requiring additional dependencies.
+Next, we looked at opting into using &lt;code&gt;RestClient&lt;/code&gt; everywhere and enjoying streamlined and more consistent configuration that is aligned with the reactive stack.
+Finally, we learned how to override or omit default parameters in OAuth 2.0 Access Token requests, which unlocks advanced scenarios that were previously difficult to account for.&lt;/p&gt;
+&lt;p&gt;I hope you are as excited as I am about this new round of improvements and all the other features available with Spring Security 6.4.
+These features and more are available for pre-release in Spring Security &lt;code&gt;6.4.0-RC1&lt;/code&gt;, so please try them out.
+We&apos;d love to hear your feedback!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring Modulith 1.3 RC1, 1.2.5, and 1.1.10 released]]></title><link>https://spring.io/blog/2024/10/28/spring-modulith-1-3-rc1-1-2-5-and-1-1-10-released</link><guid isPermaLink="true">https://spring.io/blog/2024/10/28/spring-modulith-1-3-rc1-1-2-5-and-1-1-10-released</guid><dc:creator><![CDATA[Oliver Drotbohm]]></dc:creator><pubDate>Mon, 28 Oct 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;On behalf of the community, I am delighted to announce the avability of Spring Modulith 1.3 RC1, 1.2.5, and 1.1.10. While the service releases contain a few bugfixes and the usual dependency updates, the release candidate is packed with features and improvements such as (full change log &lt;a href=&quot;https://github.com/spring-projects/spring-modulith/releases/tag/1.3.0-RC1&quot;&gt;here&lt;/a&gt;):&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://docs.spring.io/spring-ai/reference/api/chat/openai-chat.html#_structured_outputs&quot;&gt;Spring AI OpenAI Structured Outputs&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://docs.spring.io/spring-ai/reference/api/structured-output-converter.html&quot;&gt;Spring AI, model-agnostic Structured Output converter&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://spring.io/blog/2024/05/09/spring-ai-structured-output&quot;&gt;Spring AI - Structured Output&lt;/a&gt; (blog)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://platform.openai.com/docs/guides/structured-outputs&quot;&gt;OpenAI Structured Outputs&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Spring AI Blogs:&lt;/p&gt;
+&lt;li&gt;An &lt;a href=&quot;https://docs.spring.io/spring-modulith/reference/1.3/events.html#publication-registry.completion&quot;&gt;archiving event publication completion mode&lt;/a&gt; (thanks to &lt;a href=&quot;https://github.com/ciberkleid&quot;&gt;Cora Iberkleid&lt;/a&gt; for the contribution).&lt;/li&gt;
+&lt;li&gt;Support for &lt;a href=&quot;https://github.com/spring-projects/spring-modulith/issues/836&quot;&gt;MariaDB&lt;/a&gt; (thanks, &lt;a href=&quot;https://github.com/Fezlight&quot;&gt;@Fezlight&lt;/a&gt;) and &lt;a href=&quot;https://github.com/spring-projects/spring-modulith/issues/866&quot;&gt;Oracle DB&lt;/a&gt; (thanks to &lt;a href=&quot;https://github.com/DSXVII&quot;&gt;@DSXVII&lt;/a&gt;) in the JDBC-based event publication registry.&lt;/li&gt;
+&lt;li&gt;Support to externalize events into a &lt;a href=&quot;https://github.com/spring-projects/spring-modulith/pull/869&quot;&gt;Spring (Integration) &lt;code&gt;MessageChannel&lt;/code&gt;&lt;/a&gt; via the new &lt;code&gt;spring-modulith-events-messaging&lt;/code&gt; artifact (thanks to &lt;a href=&quot;https://github.com/joshlong&quot;&gt;Josh Long&lt;/a&gt; for the contribution).&lt;/li&gt;
+&lt;li&gt;Event externalization now allows to &lt;a href=&quot;https://github.com/spring-projects/spring-modulith/issues/855&quot;&gt;add headers to the messages&lt;/a&gt; sent out and uses the Spring Message abstraction for broker interaction where feasible.&lt;/li&gt;
+&lt;li&gt;Support for &lt;a href=&quot;https://github.com/spring-projects/spring-modulith/issues/881&quot;&gt;SpEL expressions in &lt;code&gt;@Externalized&lt;/code&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/spring-projects/spring-modulith/issues/671&quot;&gt;Deprecate event externalization for Amazon SQS and SNS&lt;/a&gt; in favor of the implementation in Spring Cloud AWS (thanks to &lt;a href=&quot;https://github.com/mslowiak&quot;&gt;Marcin Slowiak&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Support for &lt;a href=&quot;https://github.com/spring-projects/spring-modulith/issues/846&quot;&gt;custom application module identifiers&lt;/a&gt; via &lt;code&gt;@ApplicationModule&lt;/code&gt; / &lt;code&gt;@Module&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/spring-projects/spring-modulith/issues/862&quot;&gt;Automatic technical architecture validation for jMolecules&lt;/a&gt; (Hexagonal, Onion and Layered Architecture).&lt;/li&gt;
+&lt;li&gt;Application Module Canvases generated now &lt;a href=&quot;https://github.com/spring-projects/spring-modulith/issues/854&quot;&gt;contain Javadoc&lt;/a&gt; for listed types and event listener methods.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The release candidate is the perfect opportunity to give the new features a try or even just validate that you can safely upgrade from the 1.2 generation. We are shooting for a GA release right after Spring Boot 3.4 end of November.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Let’s use OpenTelemetry with Spring]]></title><link>https://spring.io/blog/2024/10/28/lets-use-opentelemetry-with-spring</link><guid isPermaLink="true">https://spring.io/blog/2024/10/28/lets-use-opentelemetry-with-spring</guid><dc:creator><![CDATA[Marcin Grzejszczak]]></dc:creator><pubDate>Mon, 28 Oct 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;introduction&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#introduction&quot; aria-label=&quot;introduction permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;In the dynamic realm of observability, OpenTelemetry is a new set of tools that emerged from the now-deprecated OpenCensus and OpenTracing projects. When it comes to Spring Framework, Spring Boot, Spring Data, and Spring Cloud observability, mature solutions like Micrometer, the de facto Java standard of observability, are being used to instrument their various modules. The OpenTelemetry project consists of many components. The one we find most compelling is the OpenTelemetry Protocol (OTLP), which allows developers to harness the power of a consistent telemetry format for any back-end supporting OTLP. Let’s explore how Spring Boot seamlessly integrates with these tools to deliver exceptional observability.&lt;/p&gt;
+&lt;h1 id=&quot;the-power-of-micrometers-observation-api&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#the-power-of-micrometers-observation-api&quot; aria-label=&quot;the power of micrometers observation api permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;The Power of Micrometer’s Observation API&lt;/h1&gt;
+&lt;p&gt;Micrometer’s Observation API is a cornerstone of Spring Boot’s observability strategy. It offers a comprehensive observability solution that integrates seamlessly with various tracing and monitoring systems. Here’s why it’s the go-to choice for Spring Boot applications:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/07/31/spring-ai-with-groq-a-blazingly-fast-ai-inference-engine&quot;&gt;Spring AI with Groq - a blazingly fast AI inference engine&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/07/26/spring-ai-with-ollama-tool-support&quot;&gt;Spring AI with Ollama Tool Support&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/05/09/spring-ai-structured-output&quot;&gt;Spring AI - Structured Output&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/04/19/spring-ai-multimodality-orbis-sensualium-pictus&quot;&gt;Spring AI - Multimodality - Orbis Sensualium Pictus&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/03/06/function-calling-in-java-and-spring-ai-using-the-latest-mistral-ai-api&quot;&gt;Function Calling in Java and Spring AI using the latest Mistral AI API&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2023/02/24/spring-cloud-function-for-azure-function&quot;&gt;Spring Cloud Function for Azure Function&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stability and Maturity&lt;/strong&gt;: Micrometer is a tried-and-true solution, offering a stable and mature platform for observability instrumentation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Broad Compatibility&lt;/strong&gt;: Out of many protocols (AppOptics, Azure Monitor, Netflix Atlas, AWS CloudWatch, Datadog, Dynatrace, Elastic, Ganglia, Graphite, Humio, Influx/Telegraf, JMX, KairosDB, New Relic, Prometheus, SignalFx, Google Stackdriver, StatsD, Wavefront for metrics; B3, W3C for tracing context propagation; Zipkin for span propagation) it also supports the OTLP protocol, ensuring interoperability with OpenTelemetry and other compatible observability tools.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Versatile Integration&lt;/strong&gt;: Widely used across Spring and non-spring projects, Micrometer Observation provides a unified observability API that simplifies instrumentation and publishing of the collected data.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Simplified API&lt;/strong&gt;: Instrument once and have multiple benefits out of it - plug-in tracing, metrics, logs, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Flexibility in Choice&lt;/strong&gt;: As technology changes, Micrometer allows developers to choose their preferred observability tech stack without changing the instrumentation.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
+&lt;h1 id=&quot;leveraging-open-telemetry-protocol&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#leveraging-open-telemetry-protocol&quot; aria-label=&quot;leveraging open telemetry protocol permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Leveraging Open Telemetry Protocol&lt;/h1&gt;
+&lt;p&gt;The OpenTelemetry Protocol (OTLP) facilitates communication between different observability tools. By leveraging OTLP, Spring Boot applications can export logging, metrics, and tracing data in a standardized format, making it easier to integrate with various backends and observability platforms. &lt;strong&gt;At the end of the day, it’s the protocol that matters!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Why OTLP Matters:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Standardization&lt;/strong&gt;: OTLP provides a consistent way to export observability data, ensuring compatibility and reducing integration complexity.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Flexibility&lt;/strong&gt;: Using OTLP allows developers to choose the best tools for their needs, without being locked into a specific vendor or technology stack.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Future-Proofing&lt;/strong&gt;: As the observability landscape evolves, OTLP enables your tracing data to remain accessible and usable across different systems.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h1 id=&quot;introducing-micrometer&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#introducing-micrometer&quot; aria-label=&quot;introducing micrometer permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Introducing Micrometer&lt;/h1&gt;
+&lt;p&gt;Spring in its core is always about abstractions and allowing developers to choose. Same goes with Micrometer, which was founded in 2016 with the statement that “it’s like SLF4J but for metrics”. Micrometer allows you to abstract your code from the actual metrics backend. As for OTLP, Micrometer supports that from 2022 via a dedicated &lt;code&gt;OtlpMeterRegistry&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;We wanted to introduce the same abstraction for tracing, that’s why we ported the very mature Spring Cloud Sleuth project (founded in 2014) to Micrometer Tracing so that it is Spring agnostic. Thanks to Micrometer Tracing, you can choose which tracer library you want to pick (a tracer controls the lifecycle of a span and is fundamental for distributed tracing). Micrometer Tracing supports two tracing libraries: OpenZipkin Brave (Brave) and OpenTelemetry.&lt;/p&gt;
+&lt;p&gt;We believe in mature, production tested solutions, and that’s why we think Micrometer and Brave are essential tools in the Spring Boot observability toolkit. They provide robust observability capabilities, helping developers track and analyze requests across distributed systems.&lt;/p&gt;
+&lt;p&gt;Micrometer and Brave work seamlessly with Micrometer Observation and they both support OTLP ensuring your metrics (&lt;a href=&quot;https://github.com/micrometer-metrics/micrometer/blob/v1.13.6/implementations/micrometer-registry-otlp/src/main/java/io/micrometer/registry/otlp/OtlpMeterRegistry.java#L63&quot;&gt;for around 2 years&lt;/a&gt;) and tracing data (via a &lt;a href=&quot;https://github.com/openzipkin-contrib/zipkin-otel/releases/tag/0.1.0&quot;&gt;freshly released zipkin-otel project&lt;/a&gt; can be easily exported and utilized.&lt;/p&gt;
+&lt;h1 id=&quot;continuous-improvement&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#continuous-improvement&quot; aria-label=&quot;continuous improvement permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Continuous Improvement&lt;/h1&gt;
+&lt;p&gt;The Spring team knows the Spring Framework quite well because we work on it on a daily basis. We’re also serious about observability - that’s why we&apos;re the ones working on the instrumentation. Having the Spring expertise and knowing what our community wants allows us to build a great, customizable developer experience. We believe that framework features and how they&apos;re instrumented go together: code, documentation and support.&lt;/p&gt;
+&lt;p&gt;Nobody’s perfect - including us. We do know that we can always improve the current OpenTelemetry and Spring experience. The Spring team is currently working on making OTLP become the first class citizen as far as metrics/traces/logging/semantic conventions is concerned. This means better auto-configuration where needed, better support in libraries, and less moving parts for developers.&lt;/p&gt;
+&lt;h1 id=&quot;spring-boot--opentelemetry-example&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#spring-boot--opentelemetry-example&quot; aria-label=&quot;spring boot  opentelemetry example permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Spring Boot &amp;#x26; OpenTelemetry example&lt;/h1&gt;
+&lt;p&gt;A picture is worth a thousand words - let’s look at the result of running the code available &lt;a href=&quot;https://github.com/marcingrzejszczak/observability-boot-blog-post&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-xml&quot;&gt;&amp;#x3C;!-- Prerequisite for observability --&gt;
+&amp;#x3C;dependency&gt;
+	&amp;#x3C;groupId&gt;org.springframework.boot&amp;#x3C;/groupId&gt;
+	&amp;#x3C;artifactId&gt;spring-boot-starter-actuator&amp;#x3C;/artifactId&gt;
+&amp;#x3C;/dependency&gt;
+
+&amp;#x3C;!-- For Metrics --&gt;
+&amp;#x3C;!-- For OTLP --&gt;
+&amp;#x3C;dependency&gt;
+	&amp;#x3C;groupId&gt;io.micrometer&amp;#x3C;/groupId&gt;
+	&amp;#x3C;artifactId&gt;micrometer-registry-otlp&amp;#x3C;/artifactId&gt;
+&amp;#x3C;/dependency&gt;
+
+&amp;#x3C;!-- Brave version --&gt;
+&amp;#x3C;!-- For Tracing --&gt;
+&amp;#x3C;dependency&gt;
+	&amp;#x3C;groupId&gt;io.micrometer&amp;#x3C;/groupId&gt;
+	&amp;#x3C;artifactId&gt;micrometer-tracing-bridge-brave&amp;#x3C;/artifactId&gt;
+&amp;#x3C;/dependency&gt;
+&amp;#x3C;!-- For Latency Visualization --&gt;
+&amp;#x3C;!-- For OTLP --&gt;
+&amp;#x3C;dependency&gt;
+	&amp;#x3C;groupId&gt;io.zipkin.contrib.otel&amp;#x3C;/groupId&gt;
+	&amp;#x3C;artifactId&gt;encoder-brave&amp;#x3C;/artifactId&gt;
+	&amp;#x3C;version&gt;0.1.0&amp;#x3C;/version&gt;
+&amp;#x3C;/dependency&gt;
+
+&amp;#x3C;!-- For pushing logs out --&gt;
+&amp;#x3C;dependency&gt;
+	&amp;#x3C;groupId&gt;com.github.loki4j&amp;#x3C;/groupId&gt;
+	&amp;#x3C;artifactId&gt;loki-logback-appender&amp;#x3C;/artifactId&gt;
+	&amp;#x3C;version&gt;1.5.2&amp;#x3C;/version&gt;
+	&amp;#x3C;scope&gt;runtime&amp;#x3C;/scope&gt;
+&amp;#x3C;/dependency&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Maven setup required to have Spring Boot with Open Telemetry (OTLP) through Micrometer Observation, Micrometer Core and Micrometer Tracing.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//images.ctfassets.net/mnrwi97vnhts/6mHhDeABN8zAizxG7owaqf/f9b7c268e01b6845f5759c7af6b2eb92/nodes.png&quot; alt=&quot;Nodes&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Node graph of client command line application making an HTTP call to the server side&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//images.ctfassets.net/mnrwi97vnhts/3xtcWIqmWDAoBlFBQPMuG/aeb7dc629c2e955407d4d1a400bf1633/logs.png&quot; alt=&quot;Logs&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Log correlation through Spring Boot, Micrometer Observation, Micrometer Tracing and OpenZipkin Brave bridge&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//images.ctfassets.net/mnrwi97vnhts/2dbKPTf2LwA6fuPVV3nwQR/6651413481e6419e317fe98f1725c7d8/traces.png&quot; alt=&quot;Traces&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Trace view - span data received in OTLP format via OTel Brave Encoder (also through Micrometer Observation, Micrometer Tracing and OpenZipkin Brave bridge)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//images.ctfassets.net/mnrwi97vnhts/1kkkFSQd6o4mq6hrQ7wGsH/d50c3fd1ce30afacb354e05900107def/metrics.png&quot; alt=&quot;Metrics&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Latency of the incoming requests through Spring Boot with Micrometer Observation, Micrometer Core, Micrometer OTLP push MeterRegistry and OTLP write receiver enabled on the Prometheus side&lt;/p&gt;
 &lt;h1 id=&quot;conclusion&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#conclusion&quot; aria-label=&quot;conclusion permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Conclusion&lt;/h1&gt;
-&lt;p&gt;Spring AI&apos;s support for OpenAI&apos;s Structured Outputs feature makes the AI-powered applications more reliable and easier to develop.
-By ensuring type safety and consistent, structured formatting, developers can focus on building innovative features rather than wrestling with unpredictable AI outputs.&lt;/p&gt;
-&lt;p&gt;We can highlight the following benefits for Spring Developers:&lt;/p&gt;
+&lt;p&gt;Spring Boot’s Observability Approach:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Seamless Integration&lt;/strong&gt;: Leverage Structured Outputs without leaving the Spring ecosystem.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Type Safety&lt;/strong&gt;: Work with strongly-typed Java objects, reducing runtime errors.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Flexibility&lt;/strong&gt;: Choose between programmatic and property-based configuration.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Domain-Driven Design&lt;/strong&gt;: Use your domain objects to define the expected AI output structure.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Library expertise&lt;/strong&gt;: People maintaining the code are the ones maintaining the instrumentation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integrated Solutions&lt;/strong&gt;: With Micrometer and Brave, all necessary tools are integrated within the Spring Boot ecosystem, providing a cohesive and reliable observability framework.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The Protocol Matters&lt;/strong&gt;: Through OTLP, one standardizes on the protocol level making it easier to integrate with various backends and observability platforms.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Please explore this new capability and share your experiences.
-As always, we welcome feedback and contributions to help improve Spring AI and make it even more powerful and user-friendly.&lt;/p&gt;
-&lt;p&gt;Stay tuned for more updates as we continue to enhance Spring AI&apos;s integration with cutting-edge AI technologies!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[A Bootiful Podcast: Spring Cloud Dataflow, Spring Cloud Task, and Spring Batch legend Glenn Renfro]]></title><link>https://spring.io/blog/2024/08/08/a-bootiful-podcast-spring-cloud-dataflow-spring-cloud-task-and-spring-batch</link><guid isPermaLink="true">https://spring.io/blog/2024/08/08/a-bootiful-podcast-spring-cloud-dataflow-spring-cloud-task-and-spring-batch</guid><dc:creator><![CDATA[Josh Long]]></dc:creator><pubDate>Thu, 08 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi, Spring fans! In this installment, I talk to Spring Cloud Dataflow, Spring Cloud Task, and Spring Batch legend Glenn Renfro&lt;/p&gt;
-&lt;iframe title=&quot;Spring Cloud Dataflow, Spring Cloud Task, and Spring Batch legend Glenn Renfro&quot; allowtransparency=&quot;true&quot; height=&quot;150&quot; width=&quot;100%&quot; style=&quot;border: none; min-width: min(100%, 430px);height:150px;&quot; scrolling=&quot;no&quot; data-name=&quot;pb-iframe-player&quot; src=&quot;https://www.podbean.com/player-v2/?i=8her5-16961ee-pb&amp;from=pb6admin&amp;share=1&amp;download=1&amp;rtl=0&amp;fonts=Arial&amp;skin=1&amp;font-color=&amp;logo_link=episode_page&amp;btn-skin=7&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;</content:encoded></item><item><title><![CDATA[Spring Tips: HTMX]]></title><link>https://spring.io/blog/2024/08/07/spring-tips-htmx</link><guid isPermaLink="true">https://spring.io/blog/2024/08/07/spring-tips-htmx</guid><dc:creator><![CDATA[Josh Long]]></dc:creator><pubDate>Wed, 07 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi, Spring fans! HTMX is the progressive hypertext sensation that&apos;s sweeping the process of web app creation, and - thanks to a &lt;a href=&quot;https://github.com/wimdeblauwe/htmx-spring-boot&quot;&gt;nice integration&lt;/a&gt; by Spring community legend &lt;a href=&quot;https://www.wimdeblauwe.com&quot;&gt;Wim Deblauwe&lt;/a&gt;, it&apos;s easier than ever to use it with Spring Boot and Thymeleaf. And, it&apos;s the topic of today&apos;s installment!&lt;/p&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/j-rfPoXe5aE?si=e96vpqzzxTGgmhY0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;#java #springboot #html #htmx #http #html5&lt;/p&gt;</content:encoded></item><item><title><![CDATA[This Week in Spring - August 6th, 2024 ]]></title><link>https://spring.io/blog/2024/08/07/this-week-in-spring-august-6th-2024</link><guid isPermaLink="true">https://spring.io/blog/2024/08/07/this-week-in-spring-august-6th-2024</guid><dc:creator><![CDATA[Josh Long]]></dc:creator><pubDate>Wed, 07 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;It&apos;s &lt;em&gt;August&lt;/em&gt;! Egads, has that come quickly! AUGUST. The &lt;em&gt;eigth&lt;/em&gt; month of the year, and we&apos;re almost done with the first week, in fact! It&apos;s not that I&apos;m not grateful to be here, but, yah, wow that was quick. And, of course, the month of my all time double dutch favorite conference, SpringOne, &lt;a href=&quot;https://springone.io&quot;&gt;happening August 26th, 2024!&lt;/a&gt;  Will I see you there?&lt;/p&gt;
+&lt;p&gt;Spring Boot’s embrace of OpenTelemetry principles through the use of OTLP, Micrometer for metrics, Brave for tracing and Micrometer Observation as a common abstraction demonstrates a commitment to robust and reliable observability. By leveraging these tools, developers can achieve comprehensive observability. This approach not only simplifies the observability setup but also ensures a stable and mature framework for production environments. Spring Boot is a great fan of OpenTelemetry, and it shows in how effortlessly it integrates with these powerful observability tools.&lt;/p&gt;
+&lt;h1 id=&quot;links&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#links&quot; aria-label=&quot;links permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Links&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;In last week&apos;s installment of &lt;em&gt;A Bootiful Podcast&lt;/em&gt;, I talk to Micrometer &lt;a href=&quot;https://spring.io/blog/2024/08/01/a-bootiful-podcast-observability-legend-jonatan-ivanov-on-the-latest-and&quot;&gt;teammate Jonatan Ivanov&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;In last week&apos;s installment of &lt;em&gt;Spring Tips&lt;/em&gt;, &lt;a href=&quot;https://spring.io/blog/2024/07/31/spring-tips-spring-security-method-security-with-special-guest-rob-winch&quot;&gt;I had special guest contributor and Spring Security lead Rob Winch&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/07/31/spring-ai-with-groq-a-blazingly-fast-ai-inference-engine&quot;&gt;Spring AI with Groq - a blazingly fast AI inference engine&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;I &lt;em&gt;love&lt;/em&gt; this blog from the MongoDB developer blog called &lt;a href=&quot;https://www.mongodb.com/community/forums/t/discover-your-ideal-airbnb-implementing-a-spring-boot-atlas-search-with-kotlin-sync-driver/291414&quot;&gt;&lt;em&gt;Discover Your Ideal Airbnb: Implementing a Spring Boot &amp;#x26; Atlast Search with Kotlin Sync Driver&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://tanzu.vmware.com/content/blog/&quot;&gt;Spring AI enables quick delivery of Intelligent apps in java&lt;/a&gt;spring-ai-enables-quick-delivery-of-intelligent-apps-in-java&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.baeldung.com/spring-boot-return-errors-problemdetail&quot;&gt;Supporting &lt;code&gt;ProblemDetails&lt;/code&gt; in Spring&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://blog.samzhu.dev/2024/08/01/Step-by-Step-Guide-to-Integrating-Spring-Boot-with-OpenTelemetry-and-GCP/&quot;&gt;a nice step-by-step guide to GCP and Spring and OpenTelemetry&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.infoq.com/articles/config-maps-with-spring-boot/&quot;&gt;Optimizing Spring Boot Config Management with ConfigMaps: Environment Variables or Volume Mounts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.infoq.com/news/2024/08/spring-boot-3-3/&quot;&gt;Nice InfoQ article on the latest in Spring Boot 3.3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-java-spring-boot/&quot;&gt;the Azure page for Spring Boot has been updated&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://lp.jetbrains.com/intellij-idea-spring/&quot;&gt;and so has the Jetbrains page for Spring Boot&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/spring-boot-jparepository-with-example/&quot;&gt;the GeeksforGeeks blog has a nice post on using Spring Data&apos;s JpaRepository&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[A Bootiful Podcast: Observability legend Jonatan Ivanov on the latest and greatest in Micrometer]]></title><link>https://spring.io/blog/2024/08/01/a-bootiful-podcast-observability-legend-jonatan-ivanov-on-the-latest-and</link><guid isPermaLink="true">https://spring.io/blog/2024/08/01/a-bootiful-podcast-observability-legend-jonatan-ivanov-on-the-latest-and</guid><dc:creator><![CDATA[Josh Long]]></dc:creator><pubDate>Thu, 01 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi, Spring fans! In this installment we talk to observability legend Jonatan Ivanov about the latest and greatest in the wide and wonderful world of observability. (Turns out a library that&apos;s used by countless projects including and beyond the Spring ecosystem keeps quite busy!)&lt;/p&gt;
-&lt;iframe title=&quot;Observability legend Jonatan Ivanov on the latest and greatest in Micrometer&quot; allowtransparency=&quot;true&quot; height=&quot;150&quot; width=&quot;100%&quot; style=&quot;border: none; min-width: min(100%, 430px);height:150px;&quot; scrolling=&quot;no&quot; data-name=&quot;pb-iframe-player&quot; src=&quot;https://www.podbean.com/player-v2/?i=y8xd2-16888d0-pb&amp;from=pb6admin&amp;share=1&amp;download=1&amp;rtl=0&amp;fonts=Arial&amp;skin=1&amp;font-color=&amp;logo_link=episode_page&amp;btn-skin=7&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;</content:encoded></item></channel></rss>
+&lt;li&gt;Code: &lt;a href=&quot;https://github.com/marcingrzejszczak/observability-boot-blog-post&quot;&gt;https://github.com/marcingrzejszczak/observability-boot-blog-post&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spring Boot observability docs: &lt;a href=&quot;https://docs.spring.io/spring-boot/reference/actuator/observability.html&quot;&gt;https://docs.spring.io/spring-boot/reference/actuator/observability.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Micrometer website: &lt;a href=&quot;https://micrometer.io/&quot;&gt;https://micrometer.io/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Micrometer docs: &lt;a href=&quot;https://docs.micrometer.io/micrometer/reference/&quot;&gt;https://docs.micrometer.io/micrometer/reference/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Micrometer Tracing docs: &lt;a href=&quot;https://docs.micrometer.io/tracing/reference/&quot;&gt;https://docs.micrometer.io/tracing/reference/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Spring Boot 3.4.0-RC1 available now]]></title><link>https://spring.io/blog/2024/10/26/spring-boot-3-4-0-rc1-available-now</link><guid isPermaLink="true">https://spring.io/blog/2024/10/26/spring-boot-3-4-0-rc1-available-now</guid><dc:creator><![CDATA[Phil Webb]]></dc:creator><pubDate>Sat, 26 Oct 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;On behalf of the team and everyone who has contributed, I&apos;m happy to announce that Spring Boot &lt;code&gt;3.4.0-RC1&lt;/code&gt; has been released and is now available from &lt;a href=&quot;https://repo.spring.io/milestone&quot;&gt;https://repo.spring.io/milestone&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This release includes &lt;a href=&quot;https://github.com/spring-projects/spring-boot/releases/tag/v3.4.0-RC1&quot;&gt;142 enhancements, documentation improvements, dependency upgrades, and bug fixes&lt;/a&gt;. Notable new features include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Updated Buildpacks support with support for both ARM and x86 architectures&lt;/li&gt;
+&lt;li&gt;Updated &lt;code&gt;ClientHttpRequestFactory&lt;/code&gt; support, including new builders and support for more customization&lt;/li&gt;
+&lt;li&gt;Improved support for controlling access to Actuator endpoints&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Please see the &lt;a href=&quot;https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-3.4.0-RC1-Release-Notes&quot;&gt;release notes&lt;/a&gt; for more details and upgrade instructions.&lt;/p&gt;
+&lt;p&gt;Thanks to all those who have contributed with issue reports and pull requests.&lt;/p&gt;
+&lt;h3 id=&quot;how-can-you-help&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#how-can-you-help&quot; aria-label=&quot;how can you help permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;How can you help?&lt;/h3&gt;
+&lt;p&gt;If you&apos;re interested in helping out, check out the &lt;a href=&quot;https://github.com/spring-projects/spring-boot/labels/status%3A%20ideal-for-contribution&quot;&gt;&quot;ideal for contribution&quot; tag&lt;/a&gt; in the issue repository. If you have general questions, please ask on &lt;a href=&quot;https://stackoverflow.com&quot;&gt;stackoverflow.com&lt;/a&gt; using the &lt;a href=&quot;https://stackoverflow.com/tags/spring-boot&quot;&gt;&lt;code&gt;spring-boot&lt;/code&gt; tag&lt;/a&gt; or chat with the community on &lt;a href=&quot;https://gitter.im/spring-projects/spring-boot&quot;&gt;Gitter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://spring.io/projects/spring-boot/&quot;&gt;Project Page&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-boot&quot;&gt;GitHub&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-boot/issues&quot;&gt;Issues&lt;/a&gt; | &lt;a href=&quot;https://docs.spring.io/spring-boot/3.4/&quot;&gt;Documentation&lt;/a&gt; | &lt;a href=&quot;https://stackoverflow.com/questions/tagged/spring-boot&quot;&gt;Stack Overflow&lt;/a&gt; | &lt;a href=&quot;https://gitter.im/spring-projects/spring-boot&quot;&gt;Gitter&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[A Bootiful Podcast: GraalVM founder and BDFL Thomas Wuerthinger on GraalPy, GraalVM, and so much more]]></title><link>https://spring.io/blog/2024/10/24/a-bootiful-podcast-graalvm-founder-and-bdfl-thomas-wuerthinger-on-graalpy</link><guid isPermaLink="true">https://spring.io/blog/2024/10/24/a-bootiful-podcast-graalvm-founder-and-bdfl-thomas-wuerthinger-on-graalpy</guid><dc:creator><![CDATA[Josh Long]]></dc:creator><pubDate>Thu, 24 Oct 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi, Spring fans! In this installment I talk to GraalVM founder and benevolent dictator for life Thomas Wuerthinger, recorded live from Devoxx Belgium 2024!&lt;/p&gt;
+&lt;iframe title=&quot;GraalVM founder and BDFL Thomas Wuerthinger on GraalPy, GraalVM, and so much more&quot; allowtransparency=&quot;true&quot; height=&quot;300&quot; width=&quot;100%&quot; style=&quot;border: none; min-width: min(100%, 430px);height:300px;&quot; scrolling=&quot;no&quot; data-name=&quot;pb-iframe-player&quot; src=&quot;https://www.podbean.com/player-v2/?from=embed&amp;i=5rdrb-1719e85-pb&amp;square=1&amp;share=1&amp;download=1&amp;fonts=Arial&amp;skin=1&amp;font-color=&amp;rtl=0&amp;logo_link=&amp;btn-skin=7&amp;size=300&quot; loading=&quot;lazy&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content:encoded></item><item><title><![CDATA[Spring Integration 6.4 RC1 Available]]></title><link>https://spring.io/blog/2024/10/24/spring-integration-6-4-rc1-available</link><guid isPermaLink="true">https://spring.io/blog/2024/10/24/spring-integration-6-4-rc1-available</guid><dc:creator><![CDATA[Artem Bilan]]></dc:creator><pubDate>Thu, 24 Oct 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;On behalf of the team and everyone who contributed, I am pleased to announce the first Release Candidate for Spring Integration &lt;code&gt;6.4.0&lt;/code&gt; generation.&lt;/p&gt;
+&lt;p&gt;In addition the regular bug fixes and dependency upgrades were release as Spring Integration &lt;code&gt;6.3.5&lt;/code&gt; and &lt;code&gt;6.2.10&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Here are some notable improvements and new features in Spring Integration 6.4 since previously announced &lt;a href=&quot;https://spring.io/blog/2024/09/18/spring-integration-6-4-0-m3-available&quot;&gt;Milestone 3&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The Python scripting support has been migrate to GraalVM Polyglot. Now Python 3 language version can be used in your scripts. Plus all the benefits from third-party libraries;&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;RedisLockRegistry&lt;/code&gt; can now be configured with a &lt;code&gt;TaskScheduler&lt;/code&gt; for automatic locks renewal in the store;&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;SourcePollingChannelAdapterSpec&lt;/code&gt; now can be configured with a custom &lt;code&gt;TaskScheduler&lt;/code&gt;, e.g. for some &lt;code&gt;TaskDecorator&lt;/code&gt; use-case;&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;@SpringIntegrationTest&lt;/code&gt; can now be used for test classes hierarchy, including &lt;code&gt;@Nested&lt;/code&gt; configuration;&lt;/li&gt;
+&lt;li&gt;Plus a lot of dependency upgrades to their latest versions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;See &lt;a href=&quot;https://docs.spring.io/spring-integration/reference/6.4/whats-new.html&quot;&gt;What&apos;s New in 6.4&lt;/a&gt; for more details.&lt;/p&gt;
+&lt;p&gt;Also a &lt;a href=&quot;https://github.com/spring-projects/spring-integration/wiki/Spring-Integration-6.3-to-6.4-Migration-Guide&quot;&gt;Migration Guide&lt;/a&gt; contains some breaking changes in this new version.&lt;/p&gt;
+&lt;p&gt;We are looking for any feedback on &lt;code&gt;6.4&lt;/code&gt; generation to further improve the Framework and your experience in upcoming GA release in November.&lt;/p&gt;
+&lt;p&gt;Cheers, &lt;br&gt;
+Artem&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://projects.spring.io/spring-integration/&quot;&gt;Project Page&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-integration/issues&quot;&gt;GitHub Issues&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-integration/blob/main/CONTRIBUTING.adoc&quot;&gt;Contributing&lt;/a&gt; | &lt;a href=&quot;http://stackoverflow.com/questions/tagged/spring-integration&quot;&gt;Help&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring Boot 3.3.5 available now]]></title><link>https://spring.io/blog/2024/10/24/spring-boot-3-3-5-available-now</link><guid isPermaLink="true">https://spring.io/blog/2024/10/24/spring-boot-3-3-5-available-now</guid><dc:creator><![CDATA[Andy Wilkinson]]></dc:creator><pubDate>Thu, 24 Oct 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;On behalf of the team and everyone who has contributed, I&apos;m happy to announce that Spring Boot &lt;code&gt;3.3.5&lt;/code&gt; has been released and is now available from Maven Central.&lt;/p&gt;
+&lt;p&gt;This release includes &lt;a href=&quot;https://github.com/spring-projects/spring-boot/releases/tag/v3.3.5&quot;&gt;65 bug fixes, documentation improvements, and dependency upgrades&lt;/a&gt;. Thanks to all those who have contributed with issue reports and pull requests.&lt;/p&gt;
+&lt;h3 id=&quot;how-can-you-help&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#how-can-you-help&quot; aria-label=&quot;how can you help permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;How can you help?&lt;/h3&gt;
+&lt;p&gt;If you&apos;re interested in helping out, check out the &lt;a href=&quot;https://github.com/spring-projects/spring-boot/labels/status%3A%20ideal-for-contribution&quot;&gt;&quot;ideal for contribution&quot; tag&lt;/a&gt; in the issue repository. If you have general questions, please ask on &lt;a href=&quot;https://stackoverflow.com&quot;&gt;stackoverflow.com&lt;/a&gt; using the &lt;a href=&quot;https://stackoverflow.com/tags/spring-boot&quot;&gt;&lt;code&gt;spring-boot&lt;/code&gt; tag&lt;/a&gt; or chat with the community on &lt;a href=&quot;https://gitter.im/spring-projects/spring-boot&quot;&gt;Gitter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://spring.io/projects/spring-boot/&quot;&gt;Project Page&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-boot&quot;&gt;GitHub&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-boot/issues&quot;&gt;Issues&lt;/a&gt; | &lt;a href=&quot;https://docs.spring.io/spring-boot/3.3/&quot;&gt;Documentation&lt;/a&gt; | &lt;a href=&quot;https://stackoverflow.com/questions/tagged/spring-boot&quot;&gt;Stack Overflow&lt;/a&gt; | &lt;a href=&quot;https://gitter.im/spring-projects/spring-boot&quot;&gt;Gitter&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring Framework 6.2.0-RC3 available now]]></title><link>https://spring.io/blog/2024/10/24/spring-framework-6-2-0-rc3-available-now</link><guid isPermaLink="true">https://spring.io/blog/2024/10/24/spring-framework-6-2-0-rc3-available-now</guid><dc:creator><![CDATA[Brian Clozel]]></dc:creator><pubDate>Thu, 24 Oct 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;We are happy to announce the availability of the last release candidate of Spring Framework 6.2. We have published this version just in time for the Spring Boot RC today. We&apos;ll be collecting feedback for the &lt;a href=&quot;https://github.com/spring-projects/spring-framework/milestone/384&quot;&gt;6.2.0 GA release in November&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Spring Framework 6.2.0-RC3 is available from &lt;a href=&quot;https://repo.spring.io/milestone&quot;&gt;repo.spring.io/milestone&lt;/a&gt; now, check out the &lt;a href=&quot;https://github.com/spring-projects/spring-framework/releases/tag/v6.2.0-RC3&quot;&gt;detailed changelog for this version&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;62-features-recap&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#62-features-recap&quot; aria-label=&quot;62 features recap permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;6.2 features recap&lt;/h2&gt;
+&lt;p&gt;Check out our &lt;a href=&quot;https://github.com/spring-projects/spring-framework/wiki/What&amp;#x27;s-New-in-Spring-Framework-6.x#whats-new-in-version-62&quot;&gt;What&apos;s New page&lt;/a&gt; for details about the new features available at this point.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring Boot 3.2.11 available now]]></title><link>https://spring.io/blog/2024/10/24/spring-boot-3-2-11-available-now</link><guid isPermaLink="true">https://spring.io/blog/2024/10/24/spring-boot-3-2-11-available-now</guid><dc:creator><![CDATA[Moritz Halbritter]]></dc:creator><pubDate>Thu, 24 Oct 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;On behalf of the team and everyone who has contributed, I&apos;m happy to announce that Spring Boot &lt;code&gt;3.2.11&lt;/code&gt; has been released and is now available from Maven Central.&lt;/p&gt;
+&lt;p&gt;This release includes &lt;a href=&quot;https://github.com/spring-projects/spring-boot/releases/tag/v3.2.11&quot;&gt;52 bug fixes, documentation improvements, and dependency upgrades&lt;/a&gt;. Thanks to all those who have contributed with issue reports and pull requests.&lt;/p&gt;
+&lt;h3 id=&quot;how-can-you-help&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#how-can-you-help&quot; aria-label=&quot;how can you help permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;How can you help?&lt;/h3&gt;
+&lt;p&gt;If you&apos;re interested in helping out, check out the &lt;a href=&quot;https://github.com/spring-projects/spring-boot/labels/status%3A%20ideal-for-contribution&quot;&gt;&quot;ideal for contribution&quot; tag&lt;/a&gt; in the issue repository. If you have general questions, please ask on &lt;a href=&quot;https://stackoverflow.com&quot;&gt;stackoverflow.com&lt;/a&gt; using the &lt;a href=&quot;https://stackoverflow.com/tags/spring-boot&quot;&gt;&lt;code&gt;spring-boot&lt;/code&gt; tag&lt;/a&gt; or chat with the community on &lt;a href=&quot;https://gitter.im/spring-projects/spring-boot&quot;&gt;Gitter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://spring.io/projects/spring-boot/&quot;&gt;Project Page&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-boot&quot;&gt;GitHub&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-boot/issues&quot;&gt;Issues&lt;/a&gt; | &lt;a href=&quot;https://docs.spring.io/spring-boot/docs/3.2.11/reference/html/&quot;&gt;Documentation&lt;/a&gt; | &lt;a href=&quot;https://stackoverflow.com/questions/tagged/spring-boot&quot;&gt;Stack Overflow&lt;/a&gt; | &lt;a href=&quot;https://gitter.im/spring-projects/spring-boot&quot;&gt;Gitter&lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss>

@@ -3,21 +3,26 @@
 /* Container for the registration page */
 .register-container {
     background-color: #f5f7fa;
-    padding: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    display: ruby-text !important; /* Flexbox to center content */
+    justify-content: center; /* Center horizontally */
+    
+     /* Full viewport height */
+    /* Remove default margin */
+    margin-top: 5%;
+    margin-left: 5%;
+    height: auto ;
+    
 }
 
 /* Box for the registration form */
 .register-box {
     background-color: #ffffff;
-    padding: 2rem;
+    padding: 2%;
     border-radius: 8px;
     width: 100%;
-    max-width: 500px; /* Adjusted to fit content */
+    max-width: 700px; /* Adjusted to fit content */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin:2%;
 }
 
 /* Styling for the link to go back to home */
@@ -28,4 +33,10 @@
 
 .back-to-home-link:hover {
     text-decoration: underline;
+}
+
+.register-box
+{
+    padding: 100px;
+    margin:  50px 100px;
 }

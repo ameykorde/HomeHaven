@@ -2,23 +2,27 @@
 
 /* Container for the login page */
 .login-container {
+    display: block !important;
     background-color: #f5f7fa;
-    width: 100%;
-    min-height: 100vh; /* Ensure container takes full viewport height */
-    display: flex;
+    
+    /* Ensure container takes full viewport height */
+
     align-items: center; /* Center content vertically */
     justify-content: center; /* Center content horizontally */
     padding-top: 3rem; /* Add top padding to create space from the top */
+    
 }
 
 /* Box for the login form */
 .login-box {
     background-color: #ffffff;
-    padding: 2rem;
+   
     border-radius: 8px;
     width: 100%;
     max-width: 700px; /* Set a max-width for better fit */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 6%;
+    padding: 5%;
 }
 
 /* Styling for the link to the registration page */
@@ -38,5 +42,5 @@
 .login-box
 {
     padding: 100px;
-    margin:  0px 100px;
+    margin:  50px 100px;
 }
